@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== Connection fonts ====== */
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: normal;
+  src: url("../fonts/Mulish/static/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: bold;
+  src: url("../fonts/Mulish/static/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: light;
+  src: url("../fonts/Mulish/static/Mulish-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: medium;
+  src: url("../fonts/Mulish/static/Mulish-Medium.ttf") format("truetype");
+  font-weight: 300;
+}
+
+/* resource gallery & lightbox */
+
+#resourceGalleryContainer {
+  --product-view-height: 250px !important;
+  background-color: white !important;
+  border-radius: 10px !important;
+}
+
+#resourceGalleryContainer .f-thumbs.is-classic.is-vertical {
+  height: var(--product-view-height, 100%);
+}
+
+#productCarousel {
+  --f-carousel-spacing: 0;
+
+  --f-button-width: 48px;
+  --f-button-height: 48px;
+  --f-button-border-radius: 0;
+
+  --f-button-color: #0d0c22;
+  --f-button-hover-color: #ff3520;
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #fff;
+  --f-button-active-bg: #fff;
+
+  --f-button-svg-width: 28px;
+  --f-button-svg-height: 28px;
+
+  --f-button-svg-stroke-width: 1;
+  --f-button-svg-filter: none;
+
+  height: var(--product-view-height);
+}
+
+#productCarousel .f-carousel__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#productCarousel .f-carousel__nav {
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+@media (hover: hover) {
+  #productCarousel:hover .f-carousel__nav {
+    opacity: 0.8 !important;
+  }
+}
+
+.fancybox__container {
+  --fancybox-color: #0d0c22;
+  --fancybox-bg: #fff;
+  --f-spinner-color-1: rgba(0, 0, 0, 0.1);
+  --f-spinner-color-2: rgba(17, 24, 28, 0.8);
+}
+
+.fancybox__toolbar,
+.fancybox__nav {
+  --f-button-width: 60px;
+  --f-button-height: 60px;
+  --f-button-border-radius: 0;
+
+  --f-button-color: #0d0c22;
+  --f-button-hover-color: #ff3520;
+
+  --f-button-bg: #fff;
+  --f-button-hover-bg: #fff;
+  --f-button-active-bg: #fff;
+
+  --f-button-svg-width: 32px;
+  --f-button-svg-height: 32px;
+
+  --f-button-svg-stroke-width: 1;
+  --f-button-svg-filter: none;
+}
+
+.fancybox__nav {
+  --f-button-next-pos: 0;
+  --f-button-prev-pos: 0;
+}
+
+/* calendar */
+
+.fc-today-button {
+  display: none !important;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.4em !important;
+}
+
+.fc-day-disabled,
+.fc-daygrid-day {
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+}
+
+.fc-green-bg {
+  background-color: #42f5841a !important;
+  /* Зеленый фон для доступных дней */
+}
+
+.fc-red-bg {
+  cursor: not-allowed;
+  background-color: #e2474c1a !important;
+  /* Красный фон для исключенных дней */
+}
+
+.fc-day-today {
+  background-color: #0c41ff1a !important;
+}
+
+/* Устанавливаем относительное позиционирование для ячеек календаря */
+.fc-daygrid-day {
+  position: relative;
+}
+
+/* Добавляем точку к выбранному дню */
+/* .fc-selected-day .fc-daygrid-day-top::after {
+  content: "•";
+  color: red;
+  font-size: 24px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.fc .fc-daygrid-day-top {
+  flex-direction: row !important;
+}
+
+.selected-slot {
+  background-color: #4caf50 !important;
+  /* Зеленый цвет для выбранных слотов */
+  color: white;
+}
+
+/* .fc-theme-standard td,
+    .fc-theme-standard th,
+    .fc-day-disabled,
+    .fc-daygrid-day {
+        border: none !important;
+    } */
+
+.fc-selected-day .fc-daygrid-day-frame {
+  border: solid 2px #3b45ff !important;
+  background-color: #0c41ff1a !important;
+  /* border-radius: 8px !important; */
+}
+
+.fc-daygrid-dot-event.fc-event-mirror,
+.fc-daygrid-dot-event:hover {
+  background: transparent !important;
+}
+
+.fc .fc-button-primary {
+  background-color: #262626 !important;
+  border-color: #262626 !important;
+}
+
+.fc .fc-button-primary:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+.fc .fc-button-primary:focus,
+.fc .fc-button:focus {
+  box-shadow: none !important;
+}
+
+/* toast */
+
+.toastify {
+  border-radius: 10px !important;
+}
+
+/* tw-loader preloader */
+.tw-loader {
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: tw-spin 1s linear infinite;
+}
+
+.tw-animate-spin {
+  animation: tw-spin 1s linear infinite;
+}
+
+@keyframes tw-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#profile-sidebar .active {
+  color: white;
+  background-color: #262626;
+}
+
+#profile-sidebar .not-active {
+  color: black;
+  background-color: #f2f2f2;
+}

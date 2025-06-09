@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== Connection fonts ====== */
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: normal;
+  src: url("./fonts/Mulish/static/Mulish-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: bold;
+  src: url("./fonts/Mulish/static/Mulish-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: light;
+  src: url("./fonts/Mulish/static/Mulish-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: medium;
+  src: url("./fonts/Mulish/static/Mulish-Medium.ttf") format("truetype");
+  font-weight: 300;
+}
+
+#headerFirstName {
+  display: none;
+  /* Hide by default */
+}
+
+@media (min-width: 640px) {
+  #headerFirstName {
+    display: block;
+    /* Show on screens 640px and above */
+  }
+}
+
+/* ====== Footer shrink ====== */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+/* ====== WPO365 login wiget ====== */
+
+.wpo365-mssignin-wrapper {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 12px 12px 24px 12px;
+  text-align: center;
+}
+
+.wpo365-mssignin-spacearound {
+  display: inline-block;
+}
+
+.wpo365-mssignin-button {
+  border: 1px solid #8c8c8c;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  max-height: 41px;
+  min-height: 41px;
+  height: 41px;
+}
+
+.wpo365-mssignin-logo {
+  padding-left: 12px;
+  padding-right: 6px;
+  flex-shrink: 1;
+  width: 21px;
+  height: 21px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+}
+
+.wpo365-mssignin-label {
+  padding-left: 6px;
+  padding-right: 12px;
+  font-weight: 600;
+  color: #5e5e5e;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  flex-shrink: 1;
+  height: 21px;
+  line-height: 21px;
+}

@@ -1,0 +1,1953 @@
+# Copyright (C) 2024 DWTS
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spaces MNU Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress."
+"org/support/plugin/spaces_mnu_plugin\n"
+"Last-Translator: Berik Bazarov\n"
+"Language-Team: Русский\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-07T13:21:43+00:00\n"
+"PO-Revision-Date: 2025-01-05 04:19+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: spaces_mnu_plugin\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:69
+msgid "A department with this slug already exists"
+msgstr "Департамент с таким slug-ом уже существует"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:59
+msgid "A role with this ID already exists."
+msgstr "Роль с данным ID уже существует."
+
+#: languages/dummy_strings.php:84
+msgid "Academic and Research Council"
+msgstr "Академический и Исследовательский Совет"
+
+#: languages/dummy_strings.php:21
+msgid "Academic Event"
+msgstr "Академическое мероприятие"
+
+#: includes/event/templates/event-static-fields-meta-box.php:177
+#: includes/resource/templates/resource-static-fields-meta-box.php:124
+msgid "Access Roles"
+msgstr "Доступность"
+
+#: languages/dummy_strings.php:66
+msgid "Accounting Department"
+msgstr "Отдел бухгалтерского учета"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:103
+#: includes/admin/class-spaces_mnu_roles-admin.php:143
+#: includes/resource/booking_ajax.php:1255
+#: includes/user/class-spaces_mnu_plugin-user-public.php:66
+#: includes/user/templates/events.php:63
+#: includes/user/templates/requests.php:31
+#: includes/user/templates/resources.php:69
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/user/templates/requests.php:41
+msgid "Add comment..."
+msgstr "Добавить комментарий..."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:92
+msgid "Add Department"
+msgstr "Добавить департамент"
+
+#: includes/user/templates/event-create.php:7
+msgid "Add Event"
+msgstr "Добавить мероприятие"
+
+#: includes/event/event_assets.php:74 includes/resource/resource_assets.php:58
+msgid "Add Images"
+msgstr "Добавить изображения"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:88
+#: includes/resource/templates/resource-localized-fields-meta-box.php:68
+msgid "Add Metadata"
+msgstr "Добавить метаданные"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:78
+msgid "Add New Department"
+msgstr "Добавить новый департамент"
+
+#: includes/event/event_post_type.php:23 includes/event/event_post_type.php:24
+#: includes/user/templates/events.php:12
+msgid "Add New Event"
+msgstr "Добавить новое мероприятие"
+
+#: includes/event/event_post_type.php:88
+msgid "Add New Event Category"
+msgstr "Добавить новую категорию мероприятия"
+
+#: includes/event/event_post_type.php:64
+msgid "Add New Event Type"
+msgstr "Добавить новый тип мероприятия"
+
+#: includes/resource/resource_post_type.php:23
+#: includes/resource/resource_post_type.php:24
+#: includes/user/templates/resources.php:12
+msgid "Add New Resource"
+msgstr "Добавить новый ресурс"
+
+#: includes/resource/resource_post_type.php:88
+msgid "Add New Resource Category"
+msgstr "Добавить новую категорию ресурса"
+
+#: includes/resource/resource_post_type.php:64
+msgid "Add New Resource Type"
+msgstr "Добавить новый тип ресурса"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:106
+msgid "Add New Role"
+msgstr "Добавить новую роль"
+
+#: includes/user/templates/resource-create.php:7
+msgid "Add Resource"
+msgstr "Добавить ресурс"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:131
+msgid "Add Role"
+msgstr "Добавить роль"
+
+#: includes/event/event_assets.php:78 includes/resource/resource_assets.php:62
+msgid "Add to gallery"
+msgstr "Добавить в галерею"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:36
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: languages/dummy_strings.php:35
+msgid "Administrative Staff"
+msgstr "Административный персонал"
+
+#: includes/common/templates/home.php:109 includes/event/event_assets.php:71
+#: includes/resource/resource_assets.php:55 languages/dummy_strings.php:12
+msgid "All"
+msgstr "Все"
+
+#: includes/user/templates/all-bookings.php:7
+#: includes/user/templates/sidebar.php:101
+msgid "All Bookings"
+msgstr "Все бронирования"
+
+#: includes/user/templates/staff.php:18
+msgid "All Departments"
+msgstr "Все департаменты"
+
+#: includes/event/event_assets.php:73 includes/resource/resource_assets.php:57
+msgid "All Equipment"
+msgstr "Вся техника"
+
+#: includes/event/event_post_type.php:85
+msgid "All Event Categories"
+msgstr "Все категории мероприятий"
+
+#: includes/event/event_post_type.php:61
+msgid "All Event Types"
+msgstr "Все типы мероприятий"
+
+#: languages/dummy_strings.php:20
+msgid "All Events"
+msgstr "Все мероприятия"
+
+#: includes/resource/resource_post_type.php:85
+msgid "All Resource Categories"
+msgstr "Все категории ресурсов"
+
+#: includes/resource/resource_post_type.php:61
+msgid "All Resource Types"
+msgstr "Все типы ресурсов"
+
+#: includes/event/event_assets.php:72 includes/resource/resource_assets.php:56
+msgid "All Spaces"
+msgstr "Все помещения"
+
+#: includes/user/templates/all-bookings.php:28
+msgid "All Statuses"
+msgstr "Все статусы"
+
+#: includes/user/templates/students.php:18
+msgid "All Students"
+msgstr "Все студенты"
+
+#: includes/event/event_ajax.php:699
+msgid "An error occurred while creating the event."
+msgstr "Произошла ошибка при создании мероприятия."
+
+#: includes/resource/resource_ajax.php:386
+msgid "An error occurred while creating the resource."
+msgstr "Произошла ошибка при создании ресурса."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:476
+#: includes/user/class-spaces_mnu_plugin-user-public.php:583
+msgid "An error occurred while loading the create form."
+msgstr "Произошла ошибка при загрузке формы создания."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:421
+#: includes/user/class-spaces_mnu_plugin-user-public.php:423
+#: includes/user/class-spaces_mnu_plugin-user-public.php:527
+#: includes/user/class-spaces_mnu_plugin-user-public.php:529
+msgid "An error occurred while loading the edit form."
+msgstr "Произошла ошибка при загрузке формы редактирования."
+
+#: includes/event/event_ajax.php:684
+msgid "An error occurred while updating the event."
+msgstr "Произошла ошибка при обновлении мероприятия."
+
+#: includes/resource/resource_ajax.php:370
+msgid "An error occurred while updating the resource."
+msgstr "Произошла ошибка при обновлении ресурса."
+
+#: includes/event/event_assets.php:75 includes/resource/resource_assets.php:59
+#: includes/user/class-spaces_mnu_plugin-user-public.php:407
+#: includes/user/class-spaces_mnu_plugin-user-public.php:409
+#: includes/user/class-spaces_mnu_plugin-user-public.php:513
+#: includes/user/class-spaces_mnu_plugin-user-public.php:515
+msgid "An error occurred."
+msgstr "Произошла ошибка."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:78
+#: includes/user/class-spaces_mnu_plugin-user-public.php:92
+msgid "An error occurred. Please try again."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте еще раз."
+
+#: includes/event/templates/single-event.php:527
+msgid "An unexpected error occurred."
+msgstr "Произошла непредвиденная ошибка."
+
+#: includes/resource/templates/single-resource.php:178
+msgid "Any additional comments"
+msgstr "Любые дополнительные комментарии"
+
+#: includes/user/templates/all-bookings.php:37
+msgid "Apply Filters"
+msgstr "Применить фильтры"
+
+#: includes/user/templates/requests.php:44
+msgid "Approve"
+msgstr "Одобрить"
+
+#: includes/user/templates/all-bookings.php:29
+msgid "Approved"
+msgstr "Подтвержденные"
+
+#: includes/user/templates/all-bookings.php:52
+#: includes/user/templates/bookings.php:27
+#: includes/user/templates/calendar.php:27
+msgid ""
+"Are you sure you want to cancel this booking? Please provide a reason for "
+"the cancellation."
+msgstr ""
+"Вы уверены, что хотите отменить это бронирование? Укажите причину отмены."
+
+#: includes/event/event_assets.php:81
+msgid "Are you sure you want to delete the event and cancel all bookings?"
+msgstr ""
+"Вы уверены, что хотите удалить мероприятие и отменить все бронирования?"
+
+#: includes/resource/resource_assets.php:65
+msgid "Are you sure you want to delete the resource and cancel all bookings?"
+msgstr "Вы уверены, что хотите удалить ресурс и отменить все бронирования?"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:126
+msgid "Are you sure you want to delete this department?"
+msgstr "Вы уверены, что хотите удалить этот департамент?"
+
+#: includes/event/event_assets.php:82
+msgid "Are you sure you want to delete this event?"
+msgstr "Вы уверены, что хотите удалить это мероприятие?"
+
+#: includes/resource/resource_assets.php:66
+msgid "Are you sure you want to delete this resource?"
+msgstr "Вы уверены, что хотите удалить этот ресурс?"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:256
+msgid "Are you sure you want to delete this role? This action is irreversible."
+msgstr ""
+"Вы уверены, что хотите удалить эту роль? Это действие не может быть отменено."
+
+#: languages/dummy_strings.php:13
+msgid "Audio"
+msgstr "Аудио"
+
+#: includes/event/event_ajax.php:482 includes/resource/resource_ajax.php:340
+msgid "Autosave prevented."
+msgstr "Автосохранение заблокировано."
+
+#: includes/event/templates/event-static-fields-meta-box.php:213
+#: includes/resource/templates/resource-static-fields-meta-box.php:160
+msgid "Availability Settings"
+msgstr "Настройки доступности"
+
+#: includes/user/templates/events.php:133
+#: includes/user/templates/resources.php:138
+msgid "Available"
+msgstr "Доступно"
+
+#: includes/event/templates/event-static-fields-meta-box.php:230
+#: includes/resource/templates/resource-static-fields-meta-box.php:179
+msgid "Available days and times"
+msgstr "Доступные дни и время"
+
+#: includes/user/templates/events.php:57
+#: includes/user/templates/resources.php:63
+msgid "Avalability"
+msgstr "Доступность"
+
+#: includes/event/templates/single-event.php:271
+msgid "Book"
+msgstr "Забронировать"
+
+#: includes/resource/templates/single-resource.php:187
+msgid "Book Selected Slots"
+msgstr "Забронируйте выбранные слоты"
+
+#: includes/event/event_ajax.php:647 includes/resource/booking_ajax.php:509
+msgid "Booking Cancellation"
+msgstr "Отмена бронирования"
+
+#: includes/event/templates/single-event.php:508
+msgid "Booking failed."
+msgstr "Бронирование не удалось."
+
+#: includes/event/event_assets.php:84 includes/resource/resource_assets.php:68
+msgid "Booking ID:"
+msgstr "ID бронирования:"
+
+#: includes/resource/booking_ajax.php:1244
+#: includes/user/class-spaces_mnu_plugin-user-public.php:55
+#| msgid "Booking(s) canceled successfully!"
+msgid "Booking(s) cancelled successfully!"
+msgstr "Бронирование успешно отменено!"
+
+#: includes/event/templates/single-event.php:492
+#: includes/resource/booking_ajax.php:1239
+#: includes/resource/templates/single-resource.php:725
+msgid "Booking(s) created successfully!"
+msgstr "Бронирование успешно создано!"
+
+#: includes/user/templates/bookings.php:7
+#: includes/user/templates/sidebar.php:95
+msgid "Bookings"
+msgstr "Бронирования"
+
+#: includes/resource/resource_ajax.php:760
+msgid "Bookings Cancellation"
+msgstr "Отмена бронирования"
+
+#: includes/resource/booking_ajax.php:1247
+#: includes/user/class-spaces_mnu_plugin-user-public.php:58
+msgid "Bookings for date"
+msgstr "Бронирования на дату"
+
+#: languages/dummy_strings.php:31 languages/dummy_strings.php:68
+msgid "Business School"
+msgstr "Бизнес-школа"
+
+#: languages/dummy_strings.php:45
+msgid "Business School Student"
+msgstr "Студент бизнес-школы"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:178
+#: includes/resource/booking_ajax.php:1249
+#: includes/user/class-spaces_mnu_plugin-user-public.php:60
+#: includes/user/templates/event-create.php:17
+#: includes/user/templates/event-edit.php:17
+#: includes/user/templates/events.php:245
+#: includes/user/templates/resources.php:250
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/user/templates/all-bookings.php:51
+#: includes/user/templates/bookings.php:26
+#: includes/user/templates/calendar.php:26
+msgid "Cancel Booking"
+msgstr "Отменить бронирование"
+
+#: includes/user/templates/all-bookings.php:30
+msgid "Cancelled"
+msgstr "Отмененные"
+
+#: includes/resource/resource_ajax.php:726
+msgid "Cancelled due to resource deletion"
+msgstr "Отменено по причине удаления ресурса"
+
+#: languages/dummy_strings.php:73
+msgid "Chancery"
+msgstr "Канцелярия"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:65
+#: includes/resource/templates/resource-localized-fields-meta-box.php:45
+msgid "characters"
+msgstr "символов"
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:192
+msgid ""
+"Check the box to make the day available for booking. Set the time for each "
+"available day."
+msgstr ""
+"Отметьте галочкой, чтобы сделать день доступным для бронирования. Установите "
+"время для каждого доступного дня."
+
+#: includes/event/templates/event-static-fields-meta-box.php:243
+msgid ""
+"Check the box to make the day available for registration. Set the time for "
+"each available day."
+msgstr ""
+"Отметьте галочкой, чтобы сделать этот день доступным для регистрации. "
+"Установите время для каждого доступного дня."
+
+#: includes/event/templates/event-static-fields-meta-box.php:297
+msgid "Choose an existing resource or enter a custom location."
+msgstr "Выберите существующий ресурс или введите другую локацию."
+
+#: includes/common/templates/home.php:176
+msgid "Click on Add"
+msgstr "Нажмите «Добавить»."
+
+#: includes/common/templates/home.php:149
+msgid "Click on the Share button"
+msgstr "Нажмите кнопку «Поделиться»"
+
+#: includes/common/templates/home.php:129
+msgid "Click the button below to install the application:"
+msgstr "Нажмите кнопку ниже, чтобы установить приложение:"
+
+#: includes/user/templates/all-bookings.php:55
+#: includes/user/templates/bookings.php:30
+#: includes/user/templates/calendar.php:30
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/resource/templates/single-resource.php:177
+#: includes/user/templates/requests.php:30
+msgid "Comment"
+msgstr "Комментарий"
+
+#: includes/user/templates/all-bookings.php:56
+#: includes/user/templates/bookings.php:31
+#: includes/user/templates/calendar.php:31
+#: includes/user/templates/event-create.php:13
+#: includes/user/templates/event-create.php:18
+#: includes/user/templates/event-edit.php:13
+#: includes/user/templates/event-edit.php:18
+#: includes/user/templates/events.php:241
+#: includes/user/templates/resources.php:246
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:144
+#: includes/common/email-templates/cancellation-booking-event.php:137
+#: includes/common/email-templates/cancellation-booking-resource.php:136
+#: includes/common/email-templates/event-invitation-cancellation.php:134
+#: includes/common/email-templates/event-invitation.php:134
+#: includes/common/email-templates/success-booking-event.php:134
+#: includes/common/email-templates/success-booking-resource.php:136
+#: includes/user/templates/requests.php:27
+msgid "Date"
+msgstr "Дата"
+
+#: includes/event/event_assets.php:85 includes/resource/resource_assets.php:69
+msgid "Date:"
+msgstr "Дата:"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:130
+#: includes/user/templates/events.php:153
+#: includes/user/templates/events.php:246
+#: includes/user/templates/resources.php:158
+#: includes/user/templates/resources.php:251
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/event/event_assets.php:79
+msgid "Delete Event"
+msgstr "Удалить мероприятие"
+
+#: includes/resource/resource_assets.php:63
+msgid "Delete Resource"
+msgstr "Удалить ресурс"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:47
+#: includes/user/class-spaces_mnu_plugin-user-public.php:807
+#: includes/user/templates/edit_profile_form.php:73
+#: includes/user/templates/sidebar.php:64
+msgid "Department"
+msgstr "Департамент"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:57
+msgid "Department added successfully"
+msgstr "Департамент успешно добавлен"
+
+#: languages/dummy_strings.php:76
+msgid "Department for Development of Non-Core Assets"
+msgstr "Управление по развитию непрофильных активов"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:52
+msgid "Department Management"
+msgstr "Управление департаментами"
+
+#: languages/dummy_strings.php:75
+#| msgid "Department of Attractive Investments"
+msgid "Department of Attracting Investments"
+msgstr "Отдел по привлечению инвестиций"
+
+#: languages/dummy_strings.php:71
+msgid "Department of Information Technologies"
+msgstr "Отдел информационных технологий"
+
+#: languages/dummy_strings.php:82
+msgid "Department of Strategy and HR"
+msgstr "Департамент стратегии и HR"
+
+#: languages/dummy_strings.php:81
+msgid "Department of Student Affairs"
+msgstr "Департамент по студенческим делам"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:88
+msgid "Department Slug"
+msgstr "Slug департамента"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:921
+msgid "Department updated successfully!"
+msgstr "Департамент успешно обновлен!"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:27
+#: includes/admin/class-spaces_mnu_department-admin.php:28
+msgid "Departments"
+msgstr "Департаменты"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:40
+#: includes/resource/templates/resource-localized-fields-meta-box.php:40
+msgid "Description"
+msgstr "Описание"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:28
+#: includes/resource/templates/resource-localized-fields-meta-box.php:28
+msgid "Duplicate from Russian"
+msgstr "Дублировать с русского"
+
+#. Author of the plugin
+#: spaces_mnu_plugin.php languages/dummy_strings.php:62
+msgid "DWTS"
+msgstr "DWTS"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:175
+#: includes/user/templates/events.php:149
+#: includes/user/templates/resources.php:154
+msgid "Edit"
+msgstr "Редактировать"
+
+#: includes/event/event_post_type.php:25
+#: includes/user/templates/event-edit.php:6
+msgid "Edit Event"
+msgstr "Редактировать мероприятие"
+
+#: includes/event/event_post_type.php:86
+msgid "Edit Event Category"
+msgstr "Редактировать категорию мероприятия "
+
+#: includes/event/event_post_type.php:62
+msgid "Edit Event Type"
+msgstr "Редактировать тип мероприятия "
+
+#: includes/user/templates/edit_profile_form.php:18
+msgid "Edit Profile"
+msgstr "Редактировать профиль"
+
+#: includes/resource/resource_post_type.php:25
+#: includes/user/templates/resource-edit.php:6
+msgid "Edit Resource"
+msgstr "Редактировать ресурс"
+
+#: includes/resource/resource_post_type.php:86
+msgid "Edit Resource Category"
+msgstr "Редактировать категорию ресурсов"
+
+#: includes/resource/resource_post_type.php:62
+msgid "Edit Resource Type"
+msgstr "Редактировать тип ресурсов"
+
+#: includes/user/templates/edit_profile_form.php:58
+msgid "Email"
+msgstr "Электронная почта"
+
+#: includes/common/send_custom_email.php:6
+msgid "Email address is required."
+msgstr "Требуется адрес электронной почты."
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:169
+msgid "Enable Availability for Booking"
+msgstr "Включить доступность для бронирования"
+
+#: includes/event/templates/event-static-fields-meta-box.php:220
+msgid "Enable Availability for Registration"
+msgstr "Включить доступность для регистрации"
+
+#: languages/dummy_strings.php:83
+msgid "Endowment"
+msgstr "Эндаумент"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:106
+msgid "Enter phone number"
+msgstr "Введите номер телефона"
+
+#: includes/common/templates/home.php:69
+msgid "Enter the resource name"
+msgstr "Введите название ресурса"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:43
+msgid "Enter the user's job title"
+msgstr "Введите должность пользователя"
+
+#: includes/common/email-templates/success-booking-resource.php:135
+#: languages/dummy_strings.php:5
+msgid "Equipment"
+msgstr "Техника"
+
+#: includes/event/event_ajax.php:950
+msgid "Error canceling event bookings."
+msgstr "Ошибка отмены бронирования мероприятия."
+
+#: includes/resource/resource_ajax.php:743
+msgid "Error canceling resource bookings."
+msgstr "Ошибка отмены бронирования ресурса."
+
+#: includes/event/event_assets.php:83 includes/resource/resource_assets.php:67
+msgid "Error checking bookings."
+msgstr "Ошибка проверки бронирований."
+
+#: includes/event/event_ajax.php:960
+msgid "Error deleting the event."
+msgstr "Ошибка при удалении мероприятия."
+
+#: includes/resource/resource_ajax.php:789
+msgid "Error deleting the resource."
+msgstr "Ошибка при удалении ресурса."
+
+#: includes/common/templates/home.php:54 includes/event/event_post_type.php:22
+msgid "Event"
+msgstr "Мероприятие"
+
+#: includes/event/event_admin_menu.php:36
+#: includes/event/event_admin_menu.php:37 includes/event/event_post_type.php:82
+#: includes/event/event_post_type.php:90
+#: includes/event/templates/event-static-fields-meta-box.php:108
+msgid "Event Categories"
+msgstr "Категории мероприятий"
+
+#: includes/event/event_post_type.php:83
+msgid "Event Category"
+msgstr "Категория мероприятия"
+
+#: includes/event/event_ajax.php:703
+msgid "Event created successfully."
+msgstr "Мероприятие успешно создано."
+
+#: includes/event/templates/event-static-fields-meta-box.php:303
+msgid "Event Date"
+msgstr "Дата мероприятия"
+
+#: includes/event/event_meta_boxes.php:42
+msgid "Event Details"
+msgstr "Детали мероприятия"
+
+#: includes/event/templates/event-static-fields-meta-box.php:309
+msgid "Event Duration"
+msgstr "Длительность мероприятия"
+
+#: includes/event/event_ajax.php:775
+msgid "Event Invitation"
+msgstr "Приглашение на мероприятие"
+
+#: includes/event/event_meta_boxes.php:51
+msgid "Event Localized Details"
+msgstr "Локализованные детали мероприятия"
+
+#: includes/event/templates/event-static-fields-meta-box.php:248
+msgid "Event Location"
+msgstr "Место проведения мероприятия"
+
+#: includes/event/event_frontend_forms.php:56
+msgid "Event not found."
+msgstr "Мероприятие не найдено."
+
+#: includes/resource/booking_ajax.php:559
+msgid "Event Registration Cancellation"
+msgstr "Отмена регистрации на мероприятие"
+
+#: includes/event/templates/event-static-fields-meta-box.php:319
+msgid "Event Start Time"
+msgstr "Начало мероприятия"
+
+#: includes/event/event_ajax.php:958
+msgid "Event successfully deleted, associated bookings cancelled."
+msgstr "Мероприятие успешно удалено, связанные с ним бронирования отменены."
+
+#: includes/event/event_post_type.php:59
+#: includes/event/templates/event-static-fields-meta-box.php:95
+msgid "Event Type"
+msgstr "Тип мероприятия"
+
+#: includes/event/event_admin_menu.php:28
+#: includes/event/event_admin_menu.php:29 includes/event/event_post_type.php:58
+#: includes/event/event_post_type.php:66
+msgid "Event Types"
+msgstr "Типы мероприятий"
+
+#: includes/event/event_ajax.php:688
+msgid "Event updated successfully."
+msgstr "Мероприятие успешно обновлено."
+
+#: includes/event/event_admin_menu.php:17
+#: includes/event/event_admin_menu.php:18 includes/event/event_post_type.php:21
+#: includes/event/event_post_type.php:31
+msgid "Events"
+msgstr "Мероприятия"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:96
+msgid "Existing Departments"
+msgstr "Существующие департаменты"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:135
+msgid "Existing Roles"
+msgstr "Существующие роли"
+
+#: languages/dummy_strings.php:36
+msgid "Faculty Staff"
+msgstr "Профессорско-преподавательский состав"
+
+#: includes/resource/booking_ajax.php:1245
+#: includes/user/class-spaces_mnu_plugin-user-public.php:56
+msgid "Failed to cancel booking(s)."
+msgstr "Не удалось отменить бронирование(я)."
+
+#: includes/resource/booking_ajax.php:1242
+#: includes/resource/templates/single-resource.php:741
+msgid "Failed to create booking(s)."
+msgstr "Не удалось создать бронирование."
+
+#: includes/resource/booking_ajax.php:1243
+msgid "Failed to create or find the day."
+msgstr "Не удалось создать или найти нужный день."
+
+#: includes/event/event_assets.php:76 includes/resource/resource_assets.php:60
+msgid "Failed to load the form."
+msgstr "Не удалось загрузить форму."
+
+#: includes/common/send_custom_email.php:35
+msgid "Failed to send email."
+msgstr "Не удалось отправить электронное письмо."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:923
+msgid "Failed to update department."
+msgstr "Не удалось обновить департамент."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:982
+msgid "Failed to update role."
+msgstr "Не удалось обновить роль."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:968
+#: includes/user/class-spaces_mnu_plugin-user-public.php:977
+msgid "Failed to update system role."
+msgstr "Не удалось обновить системную роль."
+
+#: includes/user/templates/edit_profile_form.php:30
+msgid "File size exceeds 2MB."
+msgstr "Размер файла превышает 2МБ."
+
+#: includes/resource/templates/single-resource.php:170
+msgid "Fill in the fields"
+msgstr "Заполните поля"
+
+#: includes/user/templates/staff.php:27 includes/user/templates/students.php:32
+msgid "Filter"
+msgstr "Фильтр"
+
+#: languages/dummy_strings.php:69
+msgid "Financial Development and Supervision Department"
+msgstr "Отдел финансового развития и контроля"
+
+#: includes/user/templates/edit_profile_form.php:135
+msgid "First and last name must be at least 2 characters long."
+msgstr "Имя и фамилия должны быть длиной не менее 2 символов."
+
+#: includes/user/templates/edit_profile_form.php:37
+msgid "First Name"
+msgstr "Имя"
+
+#: includes/resource/templates/single-resource.php:109
+#: includes/user/templates/events.php:54
+#: includes/user/templates/resources.php:60
+msgid "Floor"
+msgstr "Этаж"
+
+#: includes/common/templates/home.php:111
+msgid "floor"
+msgstr "этаж"
+
+#: includes/event/templates/event-static-fields-meta-box.php:203
+#: includes/resource/templates/resource-static-fields-meta-box.php:149
+msgid "Floor Number"
+msgstr "Номер этажа"
+
+#: languages/dummy_strings.php:56
+msgid "Friday"
+msgstr "Пятница"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:134
+#: includes/common/email-templates/cancellation-booking-event.php:127
+#: includes/common/email-templates/cancellation-booking-resource.php:127
+#: includes/common/email-templates/event-invitation-cancellation.php:125
+#: includes/common/email-templates/event-invitation.php:125
+#: includes/common/email-templates/success-booking-event.php:125
+#: includes/common/email-templates/success-booking-resource.php:127
+msgid "Hello"
+msgstr "Здравствуйте"
+
+#. Plugin URI of the plugin
+#: spaces_mnu_plugin.php
+msgid "https://spaces.mnu.kz"
+msgstr "https://spaces.mnu.kz"
+
+#. Author URI of the plugin
+#: spaces_mnu_plugin.php
+msgid "https://spaces.mnu.kz/"
+msgstr "https://spaces.mnu.kz/"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:141
+msgid "ID"
+msgstr "ID"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:160
+#: includes/common/email-templates/cancellation-booking-event.php:143
+#: includes/common/email-templates/cancellation-booking-resource.php:147
+#: includes/common/email-templates/event-invitation-cancellation.php:140
+msgid ""
+"If you have any questions regarding the cancellation, please, contact %s by "
+"email at %s."
+msgstr ""
+"Если у вас возникли вопросы по поводу отмены, пожалуйста, свяжитесь с %s по "
+"электронной почте по адресу %s."
+
+#: includes/common/email-templates/success-booking-resource.php:147
+msgid ""
+"If you have any questions regarding your booking, please, contact %s by "
+"email at %s."
+msgstr ""
+"Если у вас возникли вопросы по поводу бронирования, пожалуйста, свяжитесь с "
+"%s по электронной почте по адресу %s."
+
+#: includes/common/email-templates/event-invitation.php:140
+msgid ""
+"If you have any questions regarding your invitation, please, contact %s by "
+"email at %s."
+msgstr ""
+"Если у вас возникли вопросы по поводу вашего приглашения, пожалуйста, "
+"свяжитесь с %s по электронной почте по адресу %s."
+
+#: includes/common/email-templates/success-booking-event.php:140
+msgid ""
+"If you have any questions regarding your registration, please, contact %s by "
+"email at %s."
+msgstr ""
+"Если у вас возникли вопросы по поводу регистрации, пожалуйста, свяжитесь с "
+"%s по электронной почте по адресу %s."
+
+#: includes/event/templates/event-static-fields-meta-box.php:130
+#: includes/resource/templates/resource-static-fields-meta-box.php:80
+msgid "Images"
+msgstr "Изображения"
+
+#: includes/common/templates/home.php:130
+msgid "Install"
+msgstr "Установить"
+
+#: languages/dummy_strings.php:79
+msgid "International Office"
+msgstr "Отдел международного сотрудничества"
+
+#: languages/dummy_strings.php:27
+msgid "International School of Economics"
+msgstr "Международная школа экономики"
+
+#: languages/dummy_strings.php:41
+msgid "International School of Economics Student"
+msgstr "Студент Международной школы экономики"
+
+#: languages/dummy_strings.php:30
+msgid "International School of Journalism"
+msgstr "Международная школа журналистики"
+
+#: languages/dummy_strings.php:44
+msgid "International School of Journalism Student"
+msgstr "Студент Международной школы журналистики"
+
+#: includes/resource/booking_ajax.php:35 includes/resource/booking_ajax.php:150
+#: includes/resource/booking_ajax.php:290
+msgid "Invalid date format."
+msgstr "Неверный формат даты."
+
+#: includes/event/event_ajax.php:183
+msgid "Invalid event ID or insufficient permissions."
+msgstr "Неверный ID мероприятия или недостаток прав."
+
+#: includes/event/event_ajax.php:487 includes/resource/resource_ajax.php:346
+msgid "Invalid post type."
+msgstr "Неверный тип поста."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:159
+#: includes/admin/class-spaces_mnu_department-admin.php:207
+#: includes/admin/class-spaces_mnu_department-admin.php:266
+#: includes/admin/class-spaces_mnu_roles-admin.php:288
+#: includes/admin/class-spaces_mnu_roles-admin.php:329
+#: includes/admin/class-spaces_mnu_roles-admin.php:363
+msgid "Invalid request."
+msgstr "Неверный запрос."
+
+#: includes/resource/resource_ajax.php:612
+msgid "Invalid resource ID or insufficient permissions."
+msgstr "Неверный ID ресурса или недостаток прав."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:953
+msgid "Invalid role selected."
+msgstr "Выбрана недопустимая роль."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:913
+msgid "Invalid user or department."
+msgstr "Недопустимый пользователь или департамент."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:941
+msgid "Invalid user or role."
+msgstr "Недопустимый пользователь или роль."
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:40
+#: includes/user/templates/edit_profile_form.php:66
+msgid "Job Title"
+msgstr "Должность"
+
+#: includes/event/event_assets.php:68 includes/resource/resource_assets.php:52
+msgid "Key"
+msgstr "Ключ"
+
+#: includes/user/templates/edit_profile_form.php:44
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: languages/dummy_strings.php:8
+msgid "Lecture"
+msgstr "Лекционное"
+
+#: languages/dummy_strings.php:65
+msgid "Legal Support Department"
+msgstr "Управление правового обеспечения"
+
+#: languages/dummy_strings.php:80
+msgid "Library"
+msgstr "Библиотека"
+
+#: languages/dummy_strings.php:16
+msgid "Light"
+msgstr "Свет"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:77
+#: includes/user/class-spaces_mnu_plugin-user-public.php:91
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: includes/event/templates/event-localized-fields-meta-box.php:15
+#: includes/resource/templates/resource-localized-fields-meta-box.php:15
+msgid "Localized Fields"
+msgstr "Локализованные поля"
+
+#: includes/common/email-templates/cancellation-booking-event.php:136
+#: includes/common/email-templates/event-invitation-cancellation.php:133
+#: includes/common/email-templates/event-invitation.php:133
+#: includes/common/email-templates/success-booking-event.php:133
+msgid "Location"
+msgstr "Место"
+
+#: languages/dummy_strings.php:70
+msgid "Maintenance Department"
+msgstr "Управление хозяйством"
+
+#: languages/dummy_strings.php:88
+msgid "Management"
+msgstr "Менеджмент"
+
+#: languages/dummy_strings.php:38
+msgid "Management Staff"
+msgstr "Управление"
+
+#: languages/dummy_strings.php:72
+msgid "Marketing and Sales Department"
+msgstr "Департамент маркетинга и продаж"
+
+#: languages/dummy_strings.php:67
+msgid "Media and Event Support Department"
+msgstr "Отдел по развитию медиа-контента и сопровождению мероприятий"
+
+#: languages/dummy_strings.php:9
+msgid "Meeting"
+msgstr "Переговорное"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:71
+#: includes/resource/templates/resource-localized-fields-meta-box.php:51
+msgid "Metadata"
+msgstr "Метаданные"
+
+#: languages/dummy_strings.php:78
+msgid "Military Department"
+msgstr "Военная кафедра"
+
+#: languages/dummy_strings.php:85
+msgid "MIND"
+msgstr "MIND"
+
+#: languages/dummy_strings.php:28
+msgid "MNU Law School"
+msgstr "Высшая школа права"
+
+#: languages/dummy_strings.php:42
+msgid "MNU Law School Student"
+msgstr "Студент Высшей школы права"
+
+#: languages/dummy_strings.php:52
+msgid "Monday"
+msgstr "Понедельник"
+
+#: includes/user/templates/calendar.php:7
+#: includes/user/templates/sidebar.php:74
+msgid "My Calendar"
+msgstr "Мой календарь"
+
+#: includes/user/templates/events.php:8 includes/user/templates/sidebar.php:88
+msgid "My Events"
+msgstr "Мои мероприятия"
+
+#: includes/user/templates/requests.php:19
+msgid "My Requests"
+msgstr "Мои запросы"
+
+#: includes/user/templates/resources.php:8
+#: includes/user/templates/sidebar.php:83
+msgid "My Resources"
+msgstr "Мои ресурсы"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:33
+#: includes/resource/templates/resource-localized-fields-meta-box.php:33
+#: includes/user/templates/events.php:48
+#: includes/user/templates/resources.php:54
+msgid "Name"
+msgstr "Название"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:84
+msgid "Name of the Department"
+msgstr "Название департамента"
+
+#: includes/event/event_post_type.php:26
+msgid "New Event"
+msgstr "Новое мероприятие"
+
+#: includes/event/event_post_type.php:89
+msgid "New Event Category Name"
+msgstr "Название категории нового мероприятия"
+
+#: includes/event/event_post_type.php:65
+msgid "New Event Type Name"
+msgstr "Название типа нового мероприятия"
+
+#: includes/resource/resource_post_type.php:26
+msgid "New Resource"
+msgstr "Новый ресурс"
+
+#: includes/resource/resource_post_type.php:89
+msgid "New Resource Category Name"
+msgstr "Название категории нового ресурса"
+
+#: includes/resource/resource_post_type.php:65
+msgid "New Resource Type Name"
+msgstr "Название типа нового ресурса"
+
+#: includes/common/templates/home.php:412
+#: includes/user/templates/events.php:225
+#: includes/user/templates/resources.php:230
+msgid "Next"
+msgstr "След."
+
+#: includes/resource/booking_ajax.php:50 includes/resource/booking_ajax.php:136
+#: includes/resource/booking_ajax.php:167
+#: includes/resource/booking_ajax.php:237
+#: includes/resource/booking_ajax.php:306
+#: includes/resource/booking_ajax.php:377
+#: includes/resource/booking_ajax.php:1248
+#: includes/user/class-spaces_mnu_plugin-user-public.php:59
+msgid "No bookings found for this date."
+msgstr "Бронирования на эту дату не найдены."
+
+#: includes/resource/booking_ajax.php:276
+#: includes/resource/booking_ajax.php:415
+msgid "No bookings found."
+msgstr "Бронирования не найдены."
+
+#: includes/event/event_post_type.php:29
+msgid "No events found"
+msgstr "Мероприятия не найдены"
+
+#: includes/event/event_post_type.php:30
+msgid "No events found in Trash"
+msgstr "Мероприятия в Корзине не найдены"
+
+#: includes/user/templates/events.php:231
+msgid "No events found."
+msgstr "Мероприятия не найдены."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:165
+msgid "No parent role"
+msgstr "Отсутствует родительская роль"
+
+#: includes/event/templates/single-event.php:323
+msgid "No participants yet."
+msgstr "Пока нет участников."
+
+#: includes/user/templates/requests.php:22
+msgid "No pending requests found."
+msgstr "Необработанные запросы не найдены."
+
+#: includes/resource/resource_post_type.php:29
+msgid "No resources found"
+msgstr "Ресурсы не найдены"
+
+#: includes/resource/resource_post_type.php:30
+msgid "No resources found in Trash"
+msgstr "Ресурсы не найдены в Корзине "
+
+#: includes/user/templates/resources.php:236
+msgid "No resources found."
+msgstr "Ресурсы не найдены."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:79
+#: includes/user/class-spaces_mnu_plugin-user-public.php:762
+msgid "No staff members found."
+msgstr "Сотрудники не найдены."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:93
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1042
+msgid "No students found."
+msgstr "Студенты не найдены."
+
+#: includes/resource/resource_ajax.php:712
+msgid "No upcoming bookings to cancel."
+msgstr "Нет предстоящих бронирований для отмены."
+
+#: includes/event/event_ajax.php:175 includes/resource/resource_ajax.php:602
+msgid "Nonce verification failed."
+msgstr "Ошибка верификации nonce. "
+
+#: includes/user/templates/events.php:133
+#: includes/user/templates/resources.php:138
+msgid "Not Available"
+msgstr "Недоступно"
+
+#: includes/resource/templates/single-resource.php:400
+msgid "Not available"
+msgstr "Недоступно"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:811
+#: includes/user/class-spaces_mnu_plugin-user-public.php:830
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1091
+msgid "Not selected"
+msgstr "Не выбрано"
+
+#: includes/user/templates/edit_profile_form.php:10
+#: includes/user/templates/edit_profile_form.php:13
+#: includes/user/templates/events.php:125
+#: includes/user/templates/events.php:129
+#: includes/user/templates/resources.php:77
+#: includes/user/templates/resources.php:130
+#: includes/user/templates/resources.php:134
+#: includes/user/templates/sidebar.php:11
+#: includes/user/templates/sidebar.php:14
+#: includes/user/templates/sidebar.php:61
+msgid "Not specified"
+msgstr "Не указано"
+
+#: includes/common/send_custom_email.php:30
+msgid "Notification"
+msgstr "Уведомление"
+
+#: languages/dummy_strings.php:77
+msgid "Office Registrar"
+msgstr "Офис регистратор"
+
+#: includes/resource/booking_ajax.php:1240
+msgid "One or more selected slots are in the past or have already started."
+msgstr "Один или несколько выбранных слотов в прошлом или уже начались."
+
+#: includes/common/templates/home.php:20
+msgid ""
+"Online platform for optimization and management of internal processes of %s"
+msgstr ""
+"Онлайн-платформа для оптимизации и управления внутренними процессами %s"
+
+#: includes/common/templates/home.php:146
+msgid "Or follow these steps:"
+msgstr "Или выполните следующие действия:"
+
+#: languages/dummy_strings.php:17
+msgid "Other Equipment"
+msgstr "Прочая техника"
+
+#: languages/dummy_strings.php:24
+msgid "Other Event"
+msgstr "Другое мероприятие"
+
+#: languages/dummy_strings.php:11
+msgid "Other Space"
+msgstr "Прочее помещение"
+
+#: includes/user/templates/sidebar.php:108 includes/user/templates/staff.php:6
+msgid "Our Staff"
+msgstr "Наши сотрудники"
+
+#: includes/user/templates/sidebar.php:114
+#: includes/user/templates/students.php:6
+msgid "Our Students"
+msgstr "Наши студенты"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:142
+msgid "Parent Role"
+msgstr "Родительская роль"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:122
+msgid "Parent Role (if it is a subrole)"
+msgstr "Родительская роль (если это - под-роль)"
+
+#: includes/event/templates/single-event.php:311
+msgid "Participants"
+msgstr "Участники"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:916
+#: includes/user/class-spaces_mnu_plugin-user-public.php:947
+msgid "Permission denied."
+msgstr "Отсутствует право доступа."
+
+#: includes/common/email-templates/success-booking-resource.php:154
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:103
+#: includes/user/templates/edit_profile_form.php:51
+msgid "Phone"
+msgstr "Телефон"
+
+#: languages/dummy_strings.php:15
+msgid "Photo"
+msgstr "Фото"
+
+#: includes/resource/templates/single-resource.php:696
+msgid "Please enter a reason for booking."
+msgstr "Пожалуйста, введите причину бронирования."
+
+#: includes/resource/booking_ajax.php:1246
+#: includes/user/class-spaces_mnu_plugin-user-public.php:57
+msgid "Please enter a reason for cancellation."
+msgstr "Пожалуйста, введите причину отмены."
+
+#: includes/resource/templates/single-resource.php:680
+msgid "Please select at least one slot."
+msgstr "Пожалуйста, выберите минимум один слот."
+
+#: languages/dummy_strings.php:63
+msgid "PR-Office"
+msgstr "PR-Office"
+
+#: includes/common/templates/home.php:395
+#: includes/user/templates/events.php:203
+#: includes/user/templates/resources.php:208
+msgid "Prev"
+msgstr "Пред."
+
+#: languages/dummy_strings.php:50
+msgid "Profile"
+msgstr "Профиль"
+
+#: includes/user/templates/edit_profile_form.php:23
+#| msgid "Profile photo"
+msgid "Profile Photo"
+msgstr "Фото профиля"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:157
+msgid "Profile updated successfully!"
+msgstr "Профиль успешно обновлен!"
+
+#: languages/dummy_strings.php:87
+msgid "Project Office"
+msgstr "Проектный офис "
+
+#: languages/dummy_strings.php:86
+msgid "Quality Assurance Office"
+msgstr "Quality Assurance Office"
+
+#: languages/dummy_strings.php:10
+msgid "Reading"
+msgstr "Читательское"
+
+#: includes/resource/templates/single-resource.php:174
+#: includes/user/templates/requests.php:29
+msgid "Reason"
+msgstr "Причина"
+
+#: includes/resource/booking_ajax.php:1253
+#: includes/user/class-spaces_mnu_plugin-user-public.php:64
+msgid "Reason for booking"
+msgstr "Цель бронирования"
+
+#: includes/resource/booking_ajax.php:1254
+#: includes/user/class-spaces_mnu_plugin-user-public.php:65
+#: includes/user/templates/all-bookings.php:53
+#: includes/user/templates/bookings.php:28
+#: includes/user/templates/calendar.php:28
+msgid "Reason for cancellation"
+msgstr "Причина отмены"
+
+#: includes/user/templates/requests.php:45
+msgid "Reject"
+msgstr "Отклонить"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:177
+#: includes/event/event_assets.php:70
+#: includes/event/templates/event-localized-fields-meta-box.php:81
+#: includes/resource/resource_assets.php:54
+#: includes/resource/templates/resource-localized-fields-meta-box.php:61
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/resource/booking_ajax.php:1250
+#: includes/user/class-spaces_mnu_plugin-user-public.php:61
+#: includes/user/templates/all-bookings.php:18
+#: includes/user/templates/all-bookings.php:19
+msgid "Requested By"
+msgstr "Запрос от"
+
+#: includes/user/templates/sidebar.php:78
+msgid "Requests"
+msgstr "Запросы"
+
+#: includes/resource/templates/single-resource.php:175
+msgid "Required booking reason"
+msgstr "Цель бронирования обязательна"
+
+#: includes/resource/booking_ajax.php:1251
+#: includes/resource/resource_post_type.php:22
+#: includes/user/class-spaces_mnu_plugin-user-public.php:62
+msgid "Resource"
+msgstr "Ресурс"
+
+#: includes/resource/resource_admin_menu.php:36
+#: includes/resource/resource_admin_menu.php:37
+#: includes/resource/resource_post_type.php:82
+#: includes/resource/resource_post_type.php:90
+#: includes/resource/templates/resource-static-fields-meta-box.php:56
+msgid "Resource Categories"
+msgstr "Категории ресурсов"
+
+#: includes/common/templates/home.php:73
+#: includes/resource/resource_post_type.php:83
+msgid "Resource Category"
+msgstr "Категория ресурса"
+
+#: includes/resource/resource_ajax.php:390
+msgid "Resource created successfully."
+msgstr "Ресурс успешно создан."
+
+#: includes/resource/resource_meta_boxes.php:37
+msgid "Resource Details"
+msgstr "Детали ресурса"
+
+#: includes/resource/resource_meta_boxes.php:46
+msgid "Resource Localized Details"
+msgstr "Локализованные сведения ресурса"
+
+#: includes/common/templates/home.php:63
+#: includes/user/templates/all-bookings.php:22
+#: includes/user/templates/all-bookings.php:23
+msgid "Resource Name"
+msgstr "Название ресурса"
+
+#: includes/resource/resource_frontend_forms.php:56
+#: includes/user/class-spaces_mnu_plugin-user-public.php:112
+msgid "Resource not found."
+msgstr "Ресурс не найден."
+
+#: includes/resource/resource_ajax.php:787
+#| msgid "Resource successfully deleted, associated future bookings cancelled."
+msgid "Resource successfully deleted, associated upcoming bookings cancelled."
+msgstr ""
+"Ресурс успешно удален, связанные с ним предстоящие бронирования отменены."
+
+#: includes/resource/resource_post_type.php:59
+#: includes/resource/templates/resource-static-fields-meta-box.php:43
+msgid "Resource Type"
+msgstr "Тип ресурса"
+
+#: includes/resource/resource_admin_menu.php:28
+#: includes/resource/resource_admin_menu.php:29
+#: includes/resource/resource_post_type.php:58
+#: includes/resource/resource_post_type.php:66
+msgid "Resource Types"
+msgstr "Типы ресурса"
+
+#: includes/resource/resource_ajax.php:374
+msgid "Resource updated successfully."
+msgstr "Ресурс успешно обновлен."
+
+#: includes/resource/resource_admin_menu.php:17
+#: includes/resource/resource_admin_menu.php:18
+#: includes/resource/resource_post_type.php:21
+#: includes/resource/resource_post_type.php:31
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: includes/event/templates/event-static-fields-meta-box.php:146
+#: includes/resource/templates/resource-static-fields-meta-box.php:96
+msgid "Responsible Users"
+msgstr "Ответственные"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:59
+#: includes/user/class-spaces_mnu_plugin-user-public.php:826
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1087
+msgid "Role"
+msgstr "Роль"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:47
+msgid "Role added successfully."
+msgstr "Роль успешно добавлена."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:51
+msgid "Role changed successfully."
+msgstr "Роль успешно изменена."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:118
+msgid "Role ID"
+msgstr "ID роли"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:43
+msgid "Role Management"
+msgstr "Управление ролями"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:114
+msgid "Role Title"
+msgstr "Название роли"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:980
+msgid "Role updated successfully!"
+msgstr "Роль успешно обновлена!"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:19
+#: includes/admin/class-spaces_mnu_roles-admin.php:20
+msgid "Roles"
+msgstr "Роли"
+
+#: languages/dummy_strings.php:64
+msgid "Sales Department"
+msgstr "Отдел продаж"
+
+#: languages/dummy_strings.php:57
+msgid "Saturday"
+msgstr "Суббота"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:121
+#: includes/admin/class-spaces_mnu_roles-admin.php:176
+#: includes/event/event_frontend_forms.php:84
+#: includes/resource/resource_frontend_forms.php:84
+#: includes/user/class-spaces_mnu_plugin-user-public.php:820
+#: includes/user/class-spaces_mnu_plugin-user-public.php:845
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1108
+#: includes/user/templates/edit_profile_form.php:85
+msgid "Save"
+msgstr "Сохранить"
+
+#: includes/user/templates/sidebar.php:64
+msgid "School"
+msgstr "Школа"
+
+#: languages/dummy_strings.php:29
+msgid "School of Liberal Arts"
+msgstr "Высшая Гуманитарная Школа"
+
+#: languages/dummy_strings.php:43
+msgid "School of Liberal Arts Student"
+msgstr "Студент Высшей Гуманитарной Школы"
+
+#: includes/common/templates/home.php:102
+msgid "Search"
+msgstr "Поиск"
+
+#: includes/user/templates/staff.php:15 includes/user/templates/students.php:15
+msgid "Search by name..."
+msgstr "Поиск по имени/фамилии"
+
+#: includes/event/templates/event-static-fields-meta-box.php:125
+#: includes/resource/templates/resource-static-fields-meta-box.php:75
+msgid "Search categories..."
+msgstr "Поиск категории..."
+
+#: includes/event/event_post_type.php:84
+msgid "Search Event Categories"
+msgstr "Поиск по категориям мероприятий"
+
+#: includes/event/event_post_type.php:60
+msgid "Search Event Types"
+msgstr "Поиск по типам мероприятий"
+
+#: includes/event/event_post_type.php:28
+msgid "Search Events"
+msgstr "Поиск мероприятий"
+
+#: includes/resource/resource_post_type.php:84
+msgid "Search Resource Categories"
+msgstr "Поиск по категориям ресурсов"
+
+#: includes/resource/resource_post_type.php:60
+msgid "Search Resource Types"
+msgstr "Поиск типов ресурса"
+
+#: includes/resource/resource_post_type.php:28
+msgid "Search Resources"
+msgstr "Поиск ресурсов"
+
+#: includes/event/templates/event-static-fields-meta-box.php:296
+msgid "Search resources or enter location"
+msgstr "Найти ресурсы или указать местоположение"
+
+#: includes/event/templates/event-static-fields-meta-box.php:171
+msgid "Search Responsible Users..."
+msgstr "Поиск ответственных пользователей..."
+
+#: includes/event/templates/event-static-fields-meta-box.php:198
+#: includes/resource/templates/resource-static-fields-meta-box.php:144
+msgid "Search roles..."
+msgstr "Поиск типов пользователей"
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:119
+msgid "Search users..."
+msgstr "Поиск пользователей..."
+
+#: includes/event/templates/event-static-fields-meta-box.php:328
+msgid "Seat Count"
+msgstr "Количество посадочных мест"
+
+#: languages/dummy_strings.php:74
+msgid "Security Service"
+msgstr "Служба безопасности"
+
+#: languages/dummy_strings.php:37
+msgid "Security Staff"
+msgstr "Служба безопасности"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:50
+msgid "Select a department"
+msgstr "Выберите департамент"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:124
+msgid "Select a parent role"
+msgstr "Выберите родительскую роль"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:62
+msgid "Select a role"
+msgstr "Выберите роль"
+
+#: includes/common/templates/home.php:163
+msgid "Select Add to Home Screen"
+msgstr "Выберите «Добавить на главный экран»."
+
+#: includes/resource/templates/single-resource.php:154
+msgid "Select an available date"
+msgstr "Выберите доступную дату"
+
+#: includes/resource/templates/single-resource.php:160
+#| msgid "Select available time slots for"
+msgid "Select available time slots"
+msgstr "Выберите доступные временные интервалы"
+
+#: includes/common/templates/home.php:90 includes/common/templates/home.php:252
+msgid "Select Category"
+msgstr "Выбрать категорию"
+
+#: includes/event/templates/event-static-fields-meta-box.php:97
+msgid "Select Event Type"
+msgstr "Выбрать тип мероприятия"
+
+#: includes/event/event_assets.php:77 includes/resource/resource_assets.php:61
+msgid "Select Images"
+msgstr "Выбрать изображения"
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:45
+msgid "Select Resource Type"
+msgstr "Выбрать тип ресурса"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:55
+msgid "Select the department the user works in"
+msgstr "Выберите департамент, в котором работает пользователь"
+
+#: includes/event/templates/event-static-fields-meta-box.php:323
+msgid "Select the public start time of the event."
+msgstr "Выберите время публичного начала мероприятия."
+
+#: includes/event/templates/event-static-fields-meta-box.php:315
+#| msgid "Select the start and end time of the event."
+msgid "Select the technical start and end time of the event."
+msgstr "Выберите техническое время начала и завершения мероприятия."
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:99
+msgid "Select user role"
+msgstr "Выберите пользовательскую роль"
+
+#: languages/dummy_strings.php:39
+msgid "Senior Management Staff"
+msgstr "Высшее управление"
+
+#: languages/dummy_strings.php:48
+msgid "Sign In"
+msgstr "Войти"
+
+#: languages/dummy_strings.php:49
+msgid "Sign Out"
+msgstr "Выйти"
+
+#: includes/user/templates/events.php:60
+#: includes/user/templates/resources.php:66
+msgid "Slot"
+msgstr "Слот"
+
+#: includes/user/templates/all-bookings.php:34
+msgid "Slot start"
+msgstr "Начало слота"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:146
+#: includes/common/email-templates/cancellation-booking-resource.php:138
+#: includes/common/email-templates/success-booking-resource.php:138
+#: includes/resource/booking_ajax.php:1252
+#: includes/user/class-spaces_mnu_plugin-user-public.php:63
+msgid "Slots"
+msgstr "Слоты"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:101
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/common/email-templates/success-booking-resource.php:135
+#: languages/dummy_strings.php:4
+msgid "Space"
+msgstr "Помещение"
+
+#: includes/common/templates/home.php:18
+msgid "Spaces MNU "
+msgstr "Spaces MNU "
+
+#. Plugin Name of the plugin
+#: spaces_mnu_plugin.php
+msgid "Spaces MNU Plugin"
+msgstr "Spaces MNU Plugin"
+
+#: includes/event/templates/event-static-fields-meta-box.php:330
+msgid "Specify the number of available seats for the event."
+msgstr "Укажите количество доступных мест для мероприятия."
+
+#: languages/dummy_strings.php:22
+msgid "Sports Event"
+msgstr "Спортивное мероприятие"
+
+#: languages/dummy_strings.php:34
+msgid "Staff"
+msgstr "Сотрудник"
+
+#: includes/common/email-templates/cancellation-booking-event.php:138
+#: includes/common/email-templates/event-invitation-cancellation.php:135
+#: includes/common/email-templates/event-invitation.php:135
+#: includes/common/email-templates/success-booking-event.php:135
+msgid "Start Time"
+msgstr "Время начала"
+
+#: includes/event/templates/event-static-fields-meta-box.php:89
+#: includes/resource/templates/resource-static-fields-meta-box.php:36
+msgid "Static Fields"
+msgstr "Статические поля"
+
+#: includes/user/templates/all-bookings.php:26
+msgid "Status"
+msgstr "Статус"
+
+#: includes/user/templates/sidebar.php:46 languages/dummy_strings.php:40
+msgid "Student"
+msgstr "Студент"
+
+#: languages/dummy_strings.php:23
+msgid "Student Event"
+msgstr "Студенческое мероприятие"
+
+#: includes/resource/booking_ajax.php:1190
+msgid "Successful Event Booking"
+msgstr "Успешное бронирование мероприятия"
+
+#: includes/resource/booking_ajax.php:815
+msgid "Successful Resource Booking"
+msgstr "Успешное бронирование ресурса"
+
+#: languages/dummy_strings.php:58
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: includes/common/send_custom_email.php:10
+msgid "Template name is required."
+msgstr "Необходимо указать имя шаблона."
+
+#: includes/common/send_custom_email.php:17
+msgid "Template not found: "
+msgstr "Шаблон не найден:"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:61
+msgid "The department has been successfully changed"
+msgstr "Департамент был успешно изменен"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:65
+msgid "The department has been successfully removed"
+msgstr "Департамент был успешно удален"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:73
+msgid "The department slug contains invalid characters"
+msgstr "В slug-е департамента содержатся недопустимые символы"
+
+#: includes/event/templates/single-event.php:275
+msgid "The event does not require registration to participate."
+msgstr "Для участия в мероприятии регистрация не требуется."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:119
+msgid ""
+"The ID can only contain lowercase Latin letters, numbers, and underscores."
+msgstr ""
+"ID может содержать только прописные латинские буквы, цифры и знаки "
+"подчеркивания."
+
+#: includes/resource/booking_ajax.php:251
+#: includes/resource/booking_ajax.php:391
+msgid "The resource has been removed"
+msgstr "Ресурс был удален"
+
+#: includes/resource/templates/single-resource.php:200
+msgid "The resource is not available for booking"
+msgstr "Ресурс недоступен для бронирования"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:63
+msgid "The role ID contains invalid characters."
+msgstr "ID роли содержит недопустимые символы."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:55
+msgid "The role was successfully removed."
+msgstr "Роль успешно удалена."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:89
+#: includes/admin/class-spaces_mnu_department-admin.php:120
+msgid "The slug can only contain lowercase Latin letters, numbers and hyphens."
+msgstr "Slug может содержать только прописные латинские буквы, цифры и дефисы."
+
+#: includes/event/event_assets.php:80
+msgid "There are bookings on this event:"
+msgstr "На это мероприятие есть бронирования:"
+
+#: includes/resource/resource_assets.php:64
+msgid "There are bookings on this resource:"
+msgstr "На этот ресурс есть бронирования:"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:137
+msgid "There are no departments to display."
+msgstr "Отсутствуют департаменты для отображения."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:184
+msgid "There are no roles to display."
+msgstr "Отсутствуют роли для отображения."
+
+#: includes/event/templates/single-event.php:287
+msgid "This event is not available for booking"
+msgstr "Данное мероприятие недоступно для бронирования"
+
+#. Description of the plugin
+#: spaces_mnu_plugin.php
+msgid "This is a description of the plugin."
+msgstr "Это описание плагина."
+
+#: languages/dummy_strings.php:55
+msgid "Thursday"
+msgstr "Четверг"
+
+#: includes/user/templates/requests.php:28
+msgid "Time Slot"
+msgstr "Слот времени"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:102
+#: includes/admin/class-spaces_mnu_roles-admin.php:140
+msgid "Title"
+msgstr "Заголовок"
+
+#: languages/dummy_strings.php:53
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: includes/user/templates/events.php:51
+#: includes/user/templates/resources.php:57
+msgid "Type"
+msgstr "Тип"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:137
+msgid ""
+"Unfortunately, all your upcoming bookings for the resource «%s» have been "
+"cancelled due to resource deletion."
+msgstr ""
+"К сожалению, все ваши ближайшие бронирования для ресурса «%s» отменены в "
+"связи с удалением ресурса."
+
+#: includes/common/email-templates/cancellation-booking-resource.php:130
+msgid "Unfortunately, your booking «%s» has been cancelled due to — «%s»."
+msgstr "К сожалению, ваше бронирование «%s» отменено по причине — «%s»."
+
+#: includes/common/email-templates/event-invitation-cancellation.php:128
+msgid "Unfortunately, your invitation for «%s» has been cancelled."
+msgstr "К сожалению, ваше приглашение на «%s» отменено."
+
+#: includes/common/email-templates/cancellation-booking-event.php:130
+msgid ""
+"Unfortunately, your registration for «%s» has been cancelled due to — «%s»."
+msgstr "К сожалению, ваша регистрация на «%s» отменена по причине — «%s»."
+
+#: includes/event/event_ajax.php:679 includes/event/event_ajax.php:691
+msgid "Unnamed Event"
+msgstr "Мероприятие без названия"
+
+#: includes/resource/resource_ajax.php:365
+#: includes/resource/resource_ajax.php:378
+msgid "Unnamed Resource"
+msgstr "Ресурс без названия"
+
+#: includes/event/event_post_type.php:87
+msgid "Update Event Category"
+msgstr "Обновить категорию мероприятий"
+
+#: includes/event/event_post_type.php:63
+msgid "Update Event Type"
+msgstr "Обновить тип мероприятий"
+
+#: includes/resource/resource_post_type.php:87
+msgid "Update Resource Category"
+msgstr "Обновить категорию ресурсов"
+
+#: includes/resource/resource_post_type.php:63
+msgid "Update Resource Type"
+msgstr "Обновить тип ресурса"
+
+#: includes/user/templates/edit_profile_form.php:27
+msgid "Upload file"
+msgstr "Загрузить файл"
+
+#: includes/event/templates/event-static-fields-meta-box.php:131
+#: includes/resource/templates/resource-static-fields-meta-box.php:81
+msgid "Upload Images"
+msgstr "Загрузить изображения"
+
+#: includes/event/event_assets.php:86 includes/resource/resource_assets.php:70
+msgid "User:"
+msgstr "Пользователь:"
+
+#: includes/event/event_assets.php:69 includes/resource/resource_assets.php:53
+msgid "Value"
+msgstr "Значение"
+
+#: languages/dummy_strings.php:14
+msgid "Video"
+msgstr "Видео"
+
+#: includes/event/event_post_type.php:27
+msgid "View Event"
+msgstr "Просмотреть мероприятие"
+
+#: includes/resource/resource_post_type.php:27
+msgid "View Resource"
+msgstr "Просмотреть ресурс"
+
+#: includes/common/email-templates/event-invitation.php:128
+msgid "We inform you that you have been invited to the event «%s»."
+msgstr "Сообщаем вам, что вы приглашены на мероприятие «%s»."
+
+#: includes/common/email-templates/success-booking-resource.php:130
+#| msgid "We inform you that you have successfully booked"
+msgid "We inform you that you have successfully booked «%s»."
+msgstr "Сообщаем Вам, что Вы успешно забронировали «%s»."
+
+#: includes/common/email-templates/success-booking-event.php:128
+msgid "We inform you that your registration for the event «%s» was successful."
+msgstr "Сообщаем вам, что ваша регистрация на мероприятие «%s» прошла успешно."
+
+#: languages/dummy_strings.php:54
+msgid "Wednesday"
+msgstr "Среда"
+
+#: includes/event/templates/single-event.php:278
+msgid "You do not have access to this event."
+msgstr "У вас нет доступа к этому мероприятию."
+
+#: includes/resource/templates/single-resource.php:191
+msgid "You do not have access to this resource."
+msgstr "У вас нет доступа к этому ресурсу."
+
+#: includes/event/event_frontend_forms.php:47
+msgid "You do not have permission to create or edit events."
+msgstr "У вас нет прав на создание или редактирование мероприятий."
+
+#: includes/resource/resource_frontend_forms.php:47
+msgid "You do not have permission to create or edit resources."
+msgstr "У вас нет прав на создание или редактирование ресурсов."
+
+#: includes/event/event_ajax.php:673 includes/event/event_frontend_forms.php:61
+msgid "You do not have permission to edit this event."
+msgstr "У вас нет прав на редактирование этого мероприятия."
+
+#: includes/resource/resource_ajax.php:358
+#: includes/resource/resource_frontend_forms.php:61
+msgid "You do not have permission to edit this resource."
+msgstr "У вас нет прав на редактирование этого ресурса."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:154
+#: includes/admin/class-spaces_mnu_department-admin.php:202
+#: includes/admin/class-spaces_mnu_department-admin.php:261
+#: includes/admin/class-spaces_mnu_roles-admin.php:284
+#: includes/admin/class-spaces_mnu_roles-admin.php:325
+#: includes/admin/class-spaces_mnu_roles-admin.php:359
+msgid "You do not have permission to perform this action."
+msgstr "У вас нет прав на выполнение этого действия."
+
+#: includes/resource/booking_ajax.php:1241
+msgid "You have already booked slots for this date."
+msgstr "Вы уже забронировали места на эту дату."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:103
+msgid "You must be logged in to edit this resource."
+msgstr "Для редактирования этого ресурса вам необходимо войти в систему."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:137
+msgid "You must be logged in to edit your profile."
+msgstr "Для редактирования профиля вам необходимо войти в систему."
+
+#: includes/event/templates/single-event.php:282
+msgid "You must be logged in to register for this event."
+msgstr ""
+"Вы должны войти в систему, чтобы зарегистрироваться на это мероприятие."
+
+#: includes/resource/templates/single-resource.php:195
+msgid "You need to sign in to book a resource."
+msgstr "Чтобы забронировать ресурс, вам необходимо войти в систему."

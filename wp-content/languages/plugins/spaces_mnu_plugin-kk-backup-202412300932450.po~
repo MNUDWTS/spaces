@@ -1,0 +1,1962 @@
+# Copyright (C) 2024 DWTS
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spaces MNU Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress."
+"org/support/plugin/spaces_mnu_plugin\n"
+"Last-Translator: Berik Bazarov\n"
+"Language-Team: Kazakh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-07T13:21:43+00:00\n"
+"PO-Revision-Date: 2024-12-25 04:55+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: spaces_mnu_plugin\n"
+"Language: kk\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:69
+msgid "A department with this slug already exists"
+msgstr "Бұл слагпен департамент бұрыннан қосулы"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:59
+msgid "A role with this ID already exists."
+msgstr "Бұл идентификаторы бар рөл бұрыннан бар."
+
+#: languages/dummy_strings.php:84
+msgid "Academic and Research Council"
+msgstr "Ғылыми-Зерттеу Кеңесі"
+
+#: languages/dummy_strings.php:21
+msgid "Academic Event"
+msgstr "Академиялық іс-шара"
+
+#: includes/event/templates/event-static-fields-meta-box.php:177
+#: includes/resource/templates/resource-static-fields-meta-box.php:124
+msgid "Access Roles"
+msgstr "Рөлдер бойынша қолжетімділік"
+
+#: languages/dummy_strings.php:66
+msgid "Accounting Department"
+msgstr "Бухгалтерлік есеп бөлімі"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:103
+#: includes/admin/class-spaces_mnu_roles-admin.php:143
+#: includes/resource/booking_ajax.php:1255
+#: includes/user/class-spaces_mnu_plugin-user-public.php:66
+#: includes/user/templates/events.php:63
+#: includes/user/templates/requests.php:31
+#: includes/user/templates/resources.php:69
+msgid "Actions"
+msgstr "Әрекеттер"
+
+#: includes/user/templates/requests.php:41
+msgid "Add comment..."
+msgstr "Пікір жазу..."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:92
+msgid "Add Department"
+msgstr "Департамент қосу"
+
+#: includes/user/templates/event-create.php:7
+msgid "Add Event"
+msgstr "Іс-шара қосу"
+
+#: includes/event/event_assets.php:74 includes/resource/resource_assets.php:58
+msgid "Add Images"
+msgstr "Суреттер қосу"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:88
+#: includes/resource/templates/resource-localized-fields-meta-box.php:68
+msgid "Add Metadata"
+msgstr ""
+"Метадеректерді қосу\n"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:78
+msgid "Add New Department"
+msgstr ""
+"Жаңа департамент қосу\n"
+
+#: includes/event/event_post_type.php:23 includes/event/event_post_type.php:24
+#: includes/user/templates/events.php:12
+msgid "Add New Event"
+msgstr "Жаңа іс-шара қосу"
+
+#: includes/event/event_post_type.php:88
+msgid "Add New Event Category"
+msgstr "Жаңа іс-шаралар санатын қосу"
+
+#: includes/event/event_post_type.php:64
+msgid "Add New Event Type"
+msgstr "Жаңа іс-шаралар түрін қосу"
+
+#: includes/resource/resource_post_type.php:23
+#: includes/resource/resource_post_type.php:24
+#: includes/user/templates/resources.php:12
+msgid "Add New Resource"
+msgstr "Жаңа ресурс қосу"
+
+#: includes/resource/resource_post_type.php:88
+msgid "Add New Resource Category"
+msgstr "Жаңа ресурс санатын қосу"
+
+#: includes/resource/resource_post_type.php:64
+msgid "Add New Resource Type"
+msgstr "Жаңа ресурс түрін қосу"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:106
+msgid "Add New Role"
+msgstr "Жаңа рөл қосу"
+
+#: includes/user/templates/resource-create.php:7
+msgid "Add Resource"
+msgstr "Ресурс қосу"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:131
+msgid "Add Role"
+msgstr "Рөл қосу"
+
+#: includes/event/event_assets.php:78 includes/resource/resource_assets.php:62
+msgid "Add to gallery"
+msgstr "Галереяға қосу"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:36
+msgid "Additional information"
+msgstr "Қосымша ақпарат"
+
+#: languages/dummy_strings.php:35
+msgid "Administrative Staff"
+msgstr "Әкімшілік құрам"
+
+#: includes/common/templates/home.php:109 includes/event/event_assets.php:71
+#: includes/resource/resource_assets.php:55 languages/dummy_strings.php:12
+msgid "All"
+msgstr "Барлығы"
+
+#: includes/user/templates/all-bookings.php:7
+#: includes/user/templates/sidebar.php:101
+msgid "All Bookings"
+msgstr "Барлық брондаулар"
+
+#: includes/user/templates/staff.php:18
+msgid "All Departments"
+msgstr "Барлық департаменттер"
+
+#: includes/event/event_assets.php:73 includes/resource/resource_assets.php:57
+msgid "All Equipment"
+msgstr "Барлық жабдықтар"
+
+#: includes/event/event_post_type.php:85
+msgid "All Event Categories"
+msgstr "Барлық іс-шаралар санаттары"
+
+#: includes/event/event_post_type.php:61
+msgid "All Event Types"
+msgstr "барлық іс-шаралар түрлері"
+
+#: languages/dummy_strings.php:20
+msgid "All Events"
+msgstr "Барлық іс-шаралар"
+
+#: includes/resource/resource_post_type.php:85
+msgid "All Resource Categories"
+msgstr "Ресурстардың барлық санаттары"
+
+#: includes/resource/resource_post_type.php:61
+msgid "All Resource Types"
+msgstr "Ресурстардың барлық түрлері"
+
+#: includes/event/event_assets.php:72 includes/resource/resource_assets.php:56
+msgid "All Spaces"
+msgstr "Барлық кеңістіктер"
+
+#: includes/user/templates/all-bookings.php:28
+msgid "All Statuses"
+msgstr "Барлығы"
+
+#: includes/user/templates/students.php:18
+msgid "All Students"
+msgstr "Барлық студенттер"
+
+#: includes/event/event_ajax.php:699
+msgid "An error occurred while creating the event."
+msgstr "Іс-шара қосу кезінде қате пайда болды."
+
+#: includes/resource/resource_ajax.php:386
+msgid "An error occurred while creating the resource."
+msgstr "Ресурсты құру кезінде қате пайда болды."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:476
+#: includes/user/class-spaces_mnu_plugin-user-public.php:583
+msgid "An error occurred while loading the create form."
+msgstr " Жүктеу кезінде қате пайда болды."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:421
+#: includes/user/class-spaces_mnu_plugin-user-public.php:423
+#: includes/user/class-spaces_mnu_plugin-user-public.php:527
+#: includes/user/class-spaces_mnu_plugin-user-public.php:529
+msgid "An error occurred while loading the edit form."
+msgstr "Өңдеу формасын жүктеу кезінде қате пайда болды."
+
+#: includes/event/event_ajax.php:684
+msgid "An error occurred while updating the event."
+msgstr "Іс-шараны жаңарту кезінде қате пайда болды."
+
+#: includes/resource/resource_ajax.php:370
+msgid "An error occurred while updating the resource."
+msgstr "Ресурсты жаңарту кезінде қате пайда болды."
+
+#: includes/event/event_assets.php:75 includes/resource/resource_assets.php:59
+#: includes/user/class-spaces_mnu_plugin-user-public.php:407
+#: includes/user/class-spaces_mnu_plugin-user-public.php:409
+#: includes/user/class-spaces_mnu_plugin-user-public.php:513
+#: includes/user/class-spaces_mnu_plugin-user-public.php:515
+msgid "An error occurred."
+msgstr "Қате пайда болды."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:78
+#: includes/user/class-spaces_mnu_plugin-user-public.php:92
+msgid "An error occurred. Please try again."
+msgstr "Қате пайда болды. Қайталап көріңіз."
+
+#: includes/event/templates/single-event.php:527
+msgid "An unexpected error occurred."
+msgstr "Күтпеген қате туындады."
+
+#: includes/resource/templates/single-resource.php:178
+msgid "Any additional comments"
+msgstr "Кез келген қосымша пікірлер"
+
+#: includes/user/templates/all-bookings.php:37
+msgid "Apply Filters"
+msgstr "Сүзгілерді қолдану"
+
+#: includes/user/templates/requests.php:44
+msgid "Approve"
+msgstr "Бекіту"
+
+#: includes/user/templates/all-bookings.php:29
+msgid "Approved"
+msgstr "Мақұлданған"
+
+#: includes/user/templates/all-bookings.php:52
+#: includes/user/templates/bookings.php:27
+#: includes/user/templates/calendar.php:27
+msgid ""
+"Are you sure you want to cancel this booking? Please provide a reason for "
+"the cancellation."
+msgstr ""
+"Сіз бұл брондауды мақұлдаудан бас тартқыңыз келетініне сенімдісіз бе? "
+"Себебін енгізіңіз."
+
+#: includes/event/event_assets.php:81
+msgid "Are you sure you want to delete the event and cancel all bookings?"
+msgstr ""
+"Іс-шараны жойып, барлық брондауларды \"мақұлданбаған\" растау күйіне "
+"ауыстыруға келісесіз бе? "
+
+#: includes/resource/resource_assets.php:65
+msgid "Are you sure you want to delete the resource and cancel all bookings?"
+msgstr ""
+"Ресурсты жойып, барлық брондауларды \"мақұлданбаған\" растау күйіне "
+"ауыстыруға келісесіз бе? "
+
+#: includes/admin/class-spaces_mnu_department-admin.php:126
+msgid "Are you sure you want to delete this department?"
+msgstr "Сіз бұл бөлімді жойғыңыз келетініне сенімдісіз бе?"
+
+#: includes/event/event_assets.php:82
+msgid "Are you sure you want to delete this event?"
+msgstr "Сіз бұл іс-шараны жойғыңыз келетініне сенімдісіз бе?"
+
+#: includes/resource/resource_assets.php:66
+msgid "Are you sure you want to delete this resource?"
+msgstr "Сіз бұл ресурсты жойғыңыз келетініне сенімдісіз бе?"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:256
+msgid "Are you sure you want to delete this role? This action is irreversible."
+msgstr "Сіз бұл рөлді жойғыңыз келетініне сенімдісіз бе? Бұл әрекет қайтымсыз."
+
+#: languages/dummy_strings.php:13
+msgid "Audio"
+msgstr "Аудио"
+
+#: includes/event/event_ajax.php:482 includes/resource/resource_ajax.php:340
+msgid "Autosave prevented."
+msgstr "Автосақтаудың алдын алды."
+
+#: includes/event/templates/event-static-fields-meta-box.php:213
+#: includes/resource/templates/resource-static-fields-meta-box.php:160
+msgid "Availability Settings"
+msgstr "Қолжетімділік деректері"
+
+#: includes/user/templates/events.php:133
+#: includes/user/templates/resources.php:138
+msgid "Available"
+msgstr "Қолжетімді"
+
+#: includes/event/templates/event-static-fields-meta-box.php:230
+#: includes/resource/templates/resource-static-fields-meta-box.php:179
+msgid "Available days and times"
+msgstr "Қолжетімді күндер мен уақыт аралығы"
+
+#: includes/user/templates/events.php:57
+#: includes/user/templates/resources.php:63
+msgid "Avalability"
+msgstr "Қолжетімділік"
+
+#: includes/event/templates/single-event.php:271
+msgid "Book"
+msgstr "Брондау"
+
+#: includes/resource/templates/single-resource.php:187
+msgid "Book Selected Slots"
+msgstr ""
+"Таңдалған уақыт аралығын брондау\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/event/event_ajax.php:647 includes/resource/booking_ajax.php:509
+msgid "Booking Cancellation"
+msgstr "Брондау жойылды"
+
+#: includes/event/templates/single-event.php:508
+msgid "Booking failed."
+msgstr "Брондау жасалмады."
+
+#: includes/event/event_assets.php:84 includes/resource/resource_assets.php:68
+msgid "Booking ID:"
+msgstr "Брондау ID:"
+
+#: includes/resource/booking_ajax.php:1244
+#: includes/user/class-spaces_mnu_plugin-user-public.php:55
+msgid "Booking(s) cancelled successfully!"
+msgstr "Брондау(лар) сәтті жойылды!"
+
+#: includes/event/templates/single-event.php:492
+#: includes/resource/booking_ajax.php:1239
+#: includes/resource/templates/single-resource.php:725
+msgid "Booking(s) created successfully!"
+msgstr "Брондау(лар) сәтті жасалды!"
+
+#: includes/user/templates/bookings.php:7
+#: includes/user/templates/sidebar.php:95
+msgid "Bookings"
+msgstr "Брондаулар"
+
+#: includes/resource/resource_ajax.php:760
+msgid "Bookings Cancellation"
+msgstr "Брондаудың күшін жою"
+
+#: includes/resource/booking_ajax.php:1247
+#: includes/user/class-spaces_mnu_plugin-user-public.php:58
+msgid "Bookings for date"
+msgstr "Осы күнгі брондаулар"
+
+#: languages/dummy_strings.php:31 languages/dummy_strings.php:68
+msgid "Business School"
+msgstr "Бизнес мектеп"
+
+#: languages/dummy_strings.php:45
+msgid "Business School Student"
+msgstr "Бизнес мектептің оқушысы"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:178
+#: includes/resource/booking_ajax.php:1249
+#: includes/user/class-spaces_mnu_plugin-user-public.php:60
+#: includes/user/templates/event-create.php:17
+#: includes/user/templates/event-edit.php:17
+#: includes/user/templates/events.php:245
+#: includes/user/templates/resources.php:250
+msgid "Cancel"
+msgstr "Болдырмау"
+
+#: includes/user/templates/all-bookings.php:51
+#: includes/user/templates/bookings.php:26
+#: includes/user/templates/calendar.php:26
+msgid "Cancel Booking"
+msgstr "Брондауды жою"
+
+#: includes/user/templates/all-bookings.php:30
+msgid "Cancelled"
+msgstr "Жойылған"
+
+#: includes/resource/resource_ajax.php:726
+msgid "Cancelled due to resource deletion"
+msgstr "Ресурстың жойылуына байланысты күші жойылған. "
+
+#: languages/dummy_strings.php:73
+msgid "Chancery"
+msgstr "Кеңсе"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:65
+#: includes/resource/templates/resource-localized-fields-meta-box.php:45
+msgid "characters"
+msgstr "таңбалар"
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:192
+msgid ""
+"Check the box to make the day available for booking. Set the time for each "
+"available day."
+msgstr ""
+"Белгілі күнді брондауға қолжетімді ету үшін жолақты белгілеңіз. Әр "
+"қолжетімді күннің уақыт аралығын орнатыңыз."
+
+#: includes/event/templates/event-static-fields-meta-box.php:243
+msgid ""
+"Check the box to make the day available for registration. Set the time for "
+"each available day."
+msgstr ""
+"Күнді брондау үшін қолжетімді ету белгісін қойыңыз. Әрбір қол жетімді күн "
+"уақытын белгілеңіз."
+
+#: includes/event/templates/event-static-fields-meta-box.php:297
+msgid "Choose an existing resource or enter a custom location."
+msgstr "Жүйеге енгізілген ресурсты таңдаңыз немесе басқасын енгізіңіз."
+
+#: includes/common/templates/home.php:176
+msgid "Click on Add"
+msgstr "Қосу түймесін басыңыз"
+
+#: includes/common/templates/home.php:149
+msgid "Click on the Share button"
+msgstr "Бөлісу түймесін басыңыз"
+
+#: includes/common/templates/home.php:129
+msgid "Click the button below to install the application:"
+msgstr "Қосымшаны орнату үшін төмендегі батырманы басыңыз:"
+
+#: includes/user/templates/all-bookings.php:55
+#: includes/user/templates/bookings.php:30
+#: includes/user/templates/calendar.php:30
+msgid "Close"
+msgstr "Жабу"
+
+#: includes/resource/templates/single-resource.php:177
+#: includes/user/templates/requests.php:30
+msgid "Comment"
+msgstr "Түсініктеме"
+
+#: includes/user/templates/all-bookings.php:56
+#: includes/user/templates/bookings.php:31
+#: includes/user/templates/calendar.php:31
+#: includes/user/templates/event-create.php:13
+#: includes/user/templates/event-create.php:18
+#: includes/user/templates/event-edit.php:13
+#: includes/user/templates/event-edit.php:18
+#: includes/user/templates/events.php:241
+#: includes/user/templates/resources.php:246
+msgid "Confirm"
+msgstr "Растау"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:144
+#: includes/common/email-templates/cancellation-booking-event.php:137
+#: includes/common/email-templates/cancellation-booking-resource.php:136
+#: includes/common/email-templates/event-invitation-cancellation.php:134
+#: includes/common/email-templates/event-invitation.php:134
+#: includes/common/email-templates/success-booking-event.php:134
+#: includes/common/email-templates/success-booking-resource.php:136
+#: includes/user/templates/requests.php:27
+msgid "Date"
+msgstr "Күні"
+
+#: includes/event/event_assets.php:85 includes/resource/resource_assets.php:69
+msgid "Date:"
+msgstr "Күні:"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:130
+#: includes/user/templates/events.php:153
+#: includes/user/templates/events.php:246
+#: includes/user/templates/resources.php:158
+#: includes/user/templates/resources.php:251
+msgid "Delete"
+msgstr "Жою"
+
+#: includes/event/event_assets.php:79
+msgid "Delete Event"
+msgstr "Іс-шараны жою"
+
+#: includes/resource/resource_assets.php:63
+msgid "Delete Resource"
+msgstr "Ресурсты жою"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:47
+#: includes/user/class-spaces_mnu_plugin-user-public.php:807
+#: includes/user/templates/edit_profile_form.php:73
+#: includes/user/templates/sidebar.php:64
+msgid "Department"
+msgstr "Бөлім"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:57
+msgid "Department added successfully"
+msgstr "Бөлім сәтті қосылды"
+
+#: languages/dummy_strings.php:76
+msgid "Department for Development of Non-Core Assets"
+msgstr "Бейінді емес активтерді дамыту департаменті"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:52
+msgid "Department Management"
+msgstr "Бөлімдерді басқару"
+
+#: languages/dummy_strings.php:75
+#| msgid "Department of Attractive Investments"
+msgid "Department of Attracting Investments"
+msgstr "Инвестициялар тарту бөлімі"
+
+#: languages/dummy_strings.php:71
+msgid "Department of Information Technologies"
+msgstr "Ақпараттық технологиялар бөлімі"
+
+#: languages/dummy_strings.php:82
+msgid "Department of Strategy and HR"
+msgstr "Стратегия және HR бөлімі"
+
+#: languages/dummy_strings.php:81
+msgid "Department of Student Affairs"
+msgstr "Студенттік істер жөніндегі бөлім"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:88
+msgid "Department Slug"
+msgstr "Бөлім слагы"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:921
+msgid "Department updated successfully!"
+msgstr "Бөлім сәтті жаңартылды!"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:27
+#: includes/admin/class-spaces_mnu_department-admin.php:28
+msgid "Departments"
+msgstr "Бөлімдер"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:40
+#: includes/resource/templates/resource-localized-fields-meta-box.php:40
+msgid "Description"
+msgstr "Сипаттамасы"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:28
+#: includes/resource/templates/resource-localized-fields-meta-box.php:28
+msgid "Duplicate from Russian"
+msgstr "орыс тілінен көшіру"
+
+#. Author of the plugin
+#: spaces_mnu_plugin.php languages/dummy_strings.php:62
+msgid "DWTS"
+msgstr "Веб-технологиялар мен қолдау бөлімі"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:175
+#: includes/user/templates/events.php:149
+#: includes/user/templates/resources.php:154
+msgid "Edit"
+msgstr "Өңдеу"
+
+#: includes/event/event_post_type.php:25
+#: includes/user/templates/event-edit.php:6
+msgid "Edit Event"
+msgstr "Іс-шараны өңдеу"
+
+#: includes/event/event_post_type.php:86
+msgid "Edit Event Category"
+msgstr "Іс-шара санатын өңдеу"
+
+#: includes/event/event_post_type.php:62
+msgid "Edit Event Type"
+msgstr "Іс-шара түрін өңдеу"
+
+#: includes/user/templates/edit_profile_form.php:18
+msgid "Edit Profile"
+msgstr "Жеке деректерді өңдеу"
+
+#: includes/resource/resource_post_type.php:25
+#: includes/user/templates/resource-edit.php:6
+msgid "Edit Resource"
+msgstr "Ресурсты өңдеу"
+
+#: includes/resource/resource_post_type.php:86
+msgid "Edit Resource Category"
+msgstr "Ресурс санатын өңдеу"
+
+#: includes/resource/resource_post_type.php:62
+msgid "Edit Resource Type"
+msgstr "Ресурс түрін өңдеу"
+
+#: includes/user/templates/edit_profile_form.php:58
+msgid "Email"
+msgstr "Email"
+
+#: includes/common/send_custom_email.php:6
+msgid "Email address is required."
+msgstr "Электрондық пошта міндетті түрде көрсетілуі қажет."
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:169
+msgid "Enable Availability for Booking"
+msgstr "Брондау үшін қолжетімді ету"
+
+#: includes/event/templates/event-static-fields-meta-box.php:220
+msgid "Enable Availability for Registration"
+msgstr "Тіркелу үшін қолжетімді ету"
+
+#: languages/dummy_strings.php:83
+msgid "Endowment"
+msgstr "Endowment"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:106
+msgid "Enter phone number"
+msgstr "Телефон нөміріңізді жазыңыз"
+
+#: includes/common/templates/home.php:69
+msgid "Enter the resource name"
+msgstr "Ресурс атауын енгізіңіз"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:43
+msgid "Enter the user's job title"
+msgstr "Пайдаланушының лауазымын енгізіңіз"
+
+#: includes/common/email-templates/success-booking-resource.php:135
+#: languages/dummy_strings.php:5
+msgid "Equipment"
+msgstr "Жабдық"
+
+#: includes/event/event_ajax.php:950
+msgid "Error canceling event bookings."
+msgstr "Іс-шараны брондау кезінде қате туындады."
+
+#: includes/resource/resource_ajax.php:743
+msgid "Error canceling resource bookings."
+msgstr "Ресурсты брондау кезінде қате туындады."
+
+#: includes/event/event_assets.php:83 includes/resource/resource_assets.php:67
+msgid "Error checking bookings."
+msgstr "Брондауды тексеру кезінде қате туындады."
+
+#: includes/event/event_ajax.php:960
+msgid "Error deleting the event."
+msgstr "Іс-шараны жою кезінде қате туындады."
+
+#: includes/resource/resource_ajax.php:789
+msgid "Error deleting the resource."
+msgstr "Ресурсты жою кезінде қате туындады."
+
+#: includes/common/templates/home.php:54 includes/event/event_post_type.php:22
+msgid "Event"
+msgstr "Іс-шара"
+
+#: includes/event/event_admin_menu.php:36
+#: includes/event/event_admin_menu.php:37 includes/event/event_post_type.php:82
+#: includes/event/event_post_type.php:90
+#: includes/event/templates/event-static-fields-meta-box.php:108
+msgid "Event Categories"
+msgstr "Іс-шара санаттары"
+
+#: includes/event/event_post_type.php:83
+msgid "Event Category"
+msgstr "Іс-шара санаты"
+
+#: includes/event/event_ajax.php:703
+msgid "Event created successfully."
+msgstr "Іс-шара сәтті қосылды."
+
+#: includes/event/templates/event-static-fields-meta-box.php:303
+msgid "Event Date"
+msgstr "Іс-шара күні"
+
+#: includes/event/event_meta_boxes.php:42
+msgid "Event Details"
+msgstr "Іс-шара туралы мәлімет"
+
+#: includes/event/templates/event-static-fields-meta-box.php:309
+msgid "Event Duration"
+msgstr "Іс-шараның ұзақтығы"
+
+#: includes/event/event_ajax.php:775
+msgid "Event Invitation"
+msgstr "Іс-шараға щақыру"
+
+#: includes/event/event_meta_boxes.php:51
+msgid "Event Localized Details"
+msgstr "Іс-шара туралы аударылған мәлімет"
+
+#: includes/event/templates/event-static-fields-meta-box.php:248
+msgid "Event Location"
+msgstr "Іс-шараның өтетін орны"
+
+#: includes/event/event_frontend_forms.php:56
+msgid "Event not found."
+msgstr "Іс-шара табылмады."
+
+#: includes/resource/booking_ajax.php:559
+msgid "Event Registration Cancellation"
+msgstr "Іс-шараға тіркелудің күшін жою"
+
+#: includes/event/templates/event-static-fields-meta-box.php:319
+msgid "Event Start Time"
+msgstr "Іс-шараның басталу уақыты"
+
+#: includes/event/event_ajax.php:958
+msgid "Event successfully deleted, associated bookings cancelled."
+msgstr "Іс-шара сәтті жойылды, барлық  байланысты брондаулар жойылды."
+
+#: includes/event/event_post_type.php:59
+#: includes/event/templates/event-static-fields-meta-box.php:95
+msgid "Event Type"
+msgstr "Іс-шара түрі"
+
+#: includes/event/event_admin_menu.php:28
+#: includes/event/event_admin_menu.php:29 includes/event/event_post_type.php:58
+#: includes/event/event_post_type.php:66
+msgid "Event Types"
+msgstr "Іс-шара түрлері"
+
+#: includes/event/event_ajax.php:688
+msgid "Event updated successfully."
+msgstr "Іс-шара туралы ақпарат сәтті жаңартылды."
+
+#: includes/event/event_admin_menu.php:17
+#: includes/event/event_admin_menu.php:18 includes/event/event_post_type.php:21
+#: includes/event/event_post_type.php:31
+msgid "Events"
+msgstr "Шаралар"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:96
+msgid "Existing Departments"
+msgstr "Қолданыстағы бөлімдер"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:135
+msgid "Existing Roles"
+msgstr "Қолданыстағы рөлдер"
+
+#: languages/dummy_strings.php:36
+msgid "Faculty Staff"
+msgstr "Профессорлық-оқытушылық құрам"
+
+#: includes/resource/booking_ajax.php:1245
+#: includes/user/class-spaces_mnu_plugin-user-public.php:56
+msgid "Failed to cancel booking(s)."
+msgstr "Брондауды жою мүмкін болмады."
+
+#: includes/resource/booking_ajax.php:1242
+#: includes/resource/templates/single-resource.php:741
+msgid "Failed to create booking(s)."
+msgstr "Брондауды жасау мүмкін болмады."
+
+#: includes/resource/booking_ajax.php:1243
+msgid "Failed to create or find the day."
+msgstr "Күнді құру немесе табу мүмкін болмады."
+
+#: includes/event/event_assets.php:76 includes/resource/resource_assets.php:60
+msgid "Failed to load the form."
+msgstr "Форманы жүктеу сәтсіз аяқталды."
+
+#: includes/common/send_custom_email.php:35
+msgid "Failed to send email."
+msgstr "Электрондық поштаны жіберу мүмкін болмады."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:923
+msgid "Failed to update department."
+msgstr "Бөлім туралы ақпаратты жаңарту мүмкін болмады."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:982
+msgid "Failed to update role."
+msgstr "Рөлді жаңарту кезінде қате туындады."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:968
+#: includes/user/class-spaces_mnu_plugin-user-public.php:977
+msgid "Failed to update system role."
+msgstr "Жүйе рөлін жаңарту кезінде қате туындады."
+
+#: includes/user/templates/edit_profile_form.php:30
+msgid "File size exceeds 2MB."
+msgstr "Файл өлшемі 2 МБ-тан асады."
+
+#: includes/resource/templates/single-resource.php:170
+msgid "Fill in the fields"
+msgstr "Жолдарды толтырыңыз"
+
+#: includes/user/templates/staff.php:27 includes/user/templates/students.php:32
+msgid "Filter"
+msgstr "Сұрыптау"
+
+#: languages/dummy_strings.php:69
+msgid "Financial Development and Supervision Department"
+msgstr "Қаржылық даму және қадағалау бөлімі"
+
+#: includes/user/templates/edit_profile_form.php:135
+msgid "First and last name must be at least 2 characters long."
+msgstr "Аты-жөні кемінде 2 таңбадан тұруы керек."
+
+#: includes/user/templates/edit_profile_form.php:37
+msgid "First Name"
+msgstr "Есімі"
+
+#: includes/resource/templates/single-resource.php:109
+#: includes/user/templates/events.php:54
+#: includes/user/templates/resources.php:60
+msgid "Floor"
+msgstr "Қабат"
+
+#: includes/common/templates/home.php:111
+msgid "floor"
+msgstr "қабат"
+
+#: includes/event/templates/event-static-fields-meta-box.php:203
+#: includes/resource/templates/resource-static-fields-meta-box.php:149
+msgid "Floor Number"
+msgstr "Қабат"
+
+#: languages/dummy_strings.php:56
+msgid "Friday"
+msgstr "Жұма"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:134
+#: includes/common/email-templates/cancellation-booking-event.php:127
+#: includes/common/email-templates/cancellation-booking-resource.php:127
+#: includes/common/email-templates/event-invitation-cancellation.php:125
+#: includes/common/email-templates/event-invitation.php:125
+#: includes/common/email-templates/success-booking-event.php:125
+#: includes/common/email-templates/success-booking-resource.php:127
+msgid "Hello"
+msgstr "Сәлеметсіз бе"
+
+#. Plugin URI of the plugin
+#: spaces_mnu_plugin.php
+msgid "https://spaces.mnu.kz"
+msgstr "https://spaces.mnu.kz"
+
+#. Author URI of the plugin
+#: spaces_mnu_plugin.php
+msgid "https://spaces.mnu.kz/"
+msgstr "https://spaces.mnu.kz/"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:141
+msgid "ID"
+msgstr "ID"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:160
+#: includes/common/email-templates/cancellation-booking-event.php:143
+#: includes/common/email-templates/cancellation-booking-resource.php:147
+#: includes/common/email-templates/event-invitation-cancellation.php:140
+msgid ""
+"If you have any questions regarding the cancellation, please, contact %s by "
+"email at %s."
+msgstr ""
+"Брондаудың жойылуына қатысты сұрақтарыңыз болса, %s электрондық поштасына %s "
+"хабарласуыңызды сұраймыз."
+
+#: includes/common/email-templates/success-booking-resource.php:147
+msgid ""
+"If you have any questions regarding your booking, please, contact %s by "
+"email at %s."
+msgstr ""
+"Брондауға қатысты сұрақтарыңыз болса, %s электрондық поштасына %s "
+"хабарласуыңызды сұраймыз."
+
+#: includes/common/email-templates/event-invitation.php:140
+msgid ""
+"If you have any questions regarding your invitation, please, contact %s by "
+"email at %s."
+msgstr ""
+"Шақыруға қатысты сұрақтарыңыз болса, %s электрондық поштасына %s "
+"хабарласуыңызды сұраймыз."
+
+#: includes/common/email-templates/success-booking-event.php:140
+msgid ""
+"If you have any questions regarding your registration, please, contact %s by "
+"email at %s."
+msgstr ""
+"Тіркелуге қатысты сұрақтарыңыз болса, %s электрондық поштасына %s "
+"хабарласуыңызды сұраймыз."
+
+#: includes/event/templates/event-static-fields-meta-box.php:130
+#: includes/resource/templates/resource-static-fields-meta-box.php:80
+msgid "Images"
+msgstr "Суреттер"
+
+#: includes/common/templates/home.php:130
+msgid "Install"
+msgstr "Жүктеу"
+
+#: languages/dummy_strings.php:79
+msgid "International Office"
+msgstr "Халықаралық кеңсе"
+
+#: languages/dummy_strings.php:27
+msgid "International School of Economics"
+msgstr "Халықаралық Экономика мектебі"
+
+#: languages/dummy_strings.php:41
+msgid "International School of Economics Student"
+msgstr "Халықаралық Экономика Мектебінің студенті"
+
+#: languages/dummy_strings.php:30
+msgid "International School of Journalism"
+msgstr "Халықаралық Журналистика Мектебі"
+
+#: languages/dummy_strings.php:44
+msgid "International School of Journalism Student"
+msgstr "Халықаралық Журналистика Мектебінің студенті"
+
+#: includes/resource/booking_ajax.php:35 includes/resource/booking_ajax.php:150
+#: includes/resource/booking_ajax.php:290
+msgid "Invalid date format."
+msgstr "Күн форматы дұрыс емес."
+
+#: includes/event/event_ajax.php:183
+msgid "Invalid event ID or insufficient permissions."
+msgstr "Іс-шары идентификаторы жарамсыз немесе рұқсаттар жеткіліксіз."
+
+#: includes/event/event_ajax.php:487 includes/resource/resource_ajax.php:346
+msgid "Invalid post type."
+msgstr "Пост түрі жарамсыз."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:159
+#: includes/admin/class-spaces_mnu_department-admin.php:207
+#: includes/admin/class-spaces_mnu_department-admin.php:266
+#: includes/admin/class-spaces_mnu_roles-admin.php:288
+#: includes/admin/class-spaces_mnu_roles-admin.php:329
+#: includes/admin/class-spaces_mnu_roles-admin.php:363
+msgid "Invalid request."
+msgstr "Қате сұрау."
+
+#: includes/resource/resource_ajax.php:612
+msgid "Invalid resource ID or insufficient permissions."
+msgstr "Ресурс идентификаторы жарамсыз немесе рұқсаттар жеткіліксіз."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:953
+msgid "Invalid role selected."
+msgstr "Рөл табылған жоқ."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:913
+msgid "Invalid user or department."
+msgstr "Пайдаланушы немесе бөлім табылған жоқ."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:941
+msgid "Invalid user or role."
+msgstr "Пайдаланушы немесе рөл табылған жоқ."
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:40
+#: includes/user/templates/edit_profile_form.php:66
+msgid "Job Title"
+msgstr "Қызметі"
+
+#: includes/event/event_assets.php:68 includes/resource/resource_assets.php:52
+msgid "Key"
+msgstr "Key"
+
+#: includes/user/templates/edit_profile_form.php:44
+msgid "Last Name"
+msgstr "Тегі"
+
+#: languages/dummy_strings.php:8
+msgid "Lecture"
+msgstr "Дәріс өткізу залы"
+
+#: languages/dummy_strings.php:65
+msgid "Legal Support Department"
+msgstr "Құқықтық қамтамасыз ету бөлімі"
+
+#: languages/dummy_strings.php:80
+msgid "Library"
+msgstr "Кітапхана"
+
+#: languages/dummy_strings.php:16
+msgid "Light"
+msgstr "Жарық"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:77
+#: includes/user/class-spaces_mnu_plugin-user-public.php:91
+msgid "Loading..."
+msgstr "Жүктеу..."
+
+#: includes/event/templates/event-localized-fields-meta-box.php:15
+#: includes/resource/templates/resource-localized-fields-meta-box.php:15
+msgid "Localized Fields"
+msgstr "Аудармалы жолдар"
+
+#: includes/common/email-templates/cancellation-booking-event.php:136
+#: includes/common/email-templates/event-invitation-cancellation.php:133
+#: includes/common/email-templates/event-invitation.php:133
+#: includes/common/email-templates/success-booking-event.php:133
+msgid "Location"
+msgstr "Өтетін орны"
+
+#: languages/dummy_strings.php:70
+msgid "Maintenance Department"
+msgstr "Техникалық қызмет көрсету бөлімі"
+
+#: languages/dummy_strings.php:88
+msgid "Management"
+msgstr "Басқарма"
+
+#: languages/dummy_strings.php:38
+msgid "Management Staff"
+msgstr "Басқарма"
+
+#: languages/dummy_strings.php:72
+msgid "Marketing and Sales Department"
+msgstr "Маркетинг және сату бөлімі"
+
+#: languages/dummy_strings.php:67
+msgid "Media and Event Support Department"
+msgstr "Медиа және іс-шараларды сүйемелдеу бөлімі"
+
+#: languages/dummy_strings.php:9
+msgid "Meeting"
+msgstr "Кездесулер өткізу залы"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:71
+#: includes/resource/templates/resource-localized-fields-meta-box.php:51
+msgid "Metadata"
+msgstr "Метадеректер"
+
+#: languages/dummy_strings.php:78
+msgid "Military Department"
+msgstr "Әскери кафедра"
+
+#: languages/dummy_strings.php:85
+msgid "MIND"
+msgstr "MIND"
+
+#: languages/dummy_strings.php:28
+msgid "MNU Law School"
+msgstr "Құқық Жоғары Мектебі"
+
+#: languages/dummy_strings.php:42
+msgid "MNU Law School Student"
+msgstr "Құқық Жоғары Мектебінің студенті"
+
+#: languages/dummy_strings.php:52
+msgid "Monday"
+msgstr "Дүйсенбі"
+
+#: includes/user/templates/calendar.php:7
+#: includes/user/templates/sidebar.php:74
+msgid "My Calendar"
+msgstr "Менің күнтізбем"
+
+#: includes/user/templates/events.php:8 includes/user/templates/sidebar.php:88
+msgid "My Events"
+msgstr "Менің іс-шараларым"
+
+#: includes/user/templates/requests.php:19
+msgid "My Requests"
+msgstr "Менің өтініштерім"
+
+#: includes/user/templates/resources.php:8
+#: includes/user/templates/sidebar.php:83
+msgid "My Resources"
+msgstr "Менің ресурстарым"
+
+#: includes/event/templates/event-localized-fields-meta-box.php:33
+#: includes/resource/templates/resource-localized-fields-meta-box.php:33
+#: includes/user/templates/events.php:48
+#: includes/user/templates/resources.php:54
+msgid "Name"
+msgstr "Атауы"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:84
+msgid "Name of the Department"
+msgstr "Бөлімнің атауы"
+
+#: includes/event/event_post_type.php:26
+msgid "New Event"
+msgstr "Жаңа іс-шары"
+
+#: includes/event/event_post_type.php:89
+msgid "New Event Category Name"
+msgstr "Жаңа іс-шара санатының атауы"
+
+#: includes/event/event_post_type.php:65
+msgid "New Event Type Name"
+msgstr "Жаңа іс-шары түрінің атауы"
+
+#: includes/resource/resource_post_type.php:26
+msgid "New Resource"
+msgstr "Жаңа ресурс"
+
+#: includes/resource/resource_post_type.php:89
+msgid "New Resource Category Name"
+msgstr "Жаңа ресурс санатының атауы"
+
+#: includes/resource/resource_post_type.php:65
+msgid "New Resource Type Name"
+msgstr "Жаңа ресурс түрінің атауы"
+
+#: includes/common/templates/home.php:412
+#: includes/user/templates/events.php:225
+#: includes/user/templates/resources.php:230
+msgid "Next"
+msgstr "Келесі"
+
+#: includes/resource/booking_ajax.php:50 includes/resource/booking_ajax.php:136
+#: includes/resource/booking_ajax.php:167
+#: includes/resource/booking_ajax.php:237
+#: includes/resource/booking_ajax.php:306
+#: includes/resource/booking_ajax.php:377
+#: includes/resource/booking_ajax.php:1248
+#: includes/user/class-spaces_mnu_plugin-user-public.php:59
+msgid "No bookings found for this date."
+msgstr "Бұл күнге брондау табылған жоқ."
+
+#: includes/resource/booking_ajax.php:276
+#: includes/resource/booking_ajax.php:415
+msgid "No bookings found."
+msgstr " Брондау табылған жоқ."
+
+#: includes/event/event_post_type.php:29
+msgid "No events found"
+msgstr "Іс-шаралар табылмады"
+
+#: includes/event/event_post_type.php:30
+msgid "No events found in Trash"
+msgstr "Жойылғандар арасынан іс-шара табылған жоқ"
+
+#: includes/user/templates/events.php:231
+msgid "No events found."
+msgstr "Іс-шара табылмады."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:165
+msgid "No parent role"
+msgstr "Негізгі рөл жоқ"
+
+#: includes/event/templates/single-event.php:323
+msgid "No participants yet."
+msgstr "Әзірге қатысушылар жоқ."
+
+#: includes/user/templates/requests.php:22
+msgid "No pending requests found."
+msgstr "Күтудегі сұраулар табылған жоқ."
+
+#: includes/resource/resource_post_type.php:29
+msgid "No resources found"
+msgstr "Ресурстар табылмады"
+
+#: includes/resource/resource_post_type.php:30
+msgid "No resources found in Trash"
+msgstr "Жойылған ресурстар арасынан табылмады."
+
+#: includes/user/templates/resources.php:236
+msgid "No resources found."
+msgstr "Ресурстар табылмады."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:79
+#: includes/user/class-spaces_mnu_plugin-user-public.php:762
+msgid "No staff members found."
+msgstr "Қызметкерлер табылмады."
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:93
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1042
+msgid "No students found."
+msgstr "Студенттер табылған жоқ. "
+
+#: includes/resource/resource_ajax.php:712
+msgid "No upcoming bookings to cancel."
+msgstr "Күшін жоюға болатын келешек брондаулар жоқ. "
+
+#: includes/event/event_ajax.php:175 includes/resource/resource_ajax.php:602
+msgid "Nonce verification failed."
+msgstr "Nonce верификация сәтсіз аяқталды."
+
+#: includes/user/templates/events.php:133
+#: includes/user/templates/resources.php:138
+msgid "Not Available"
+msgstr "Қолжетімсіз"
+
+#: includes/resource/templates/single-resource.php:400
+msgid "Not available"
+msgstr "Қолжетімсіз"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:811
+#: includes/user/class-spaces_mnu_plugin-user-public.php:830
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1091
+msgid "Not selected"
+msgstr "Таңдалмады"
+
+#: includes/user/templates/edit_profile_form.php:10
+#: includes/user/templates/edit_profile_form.php:13
+#: includes/user/templates/events.php:125
+#: includes/user/templates/events.php:129
+#: includes/user/templates/resources.php:77
+#: includes/user/templates/resources.php:130
+#: includes/user/templates/resources.php:134
+#: includes/user/templates/sidebar.php:11
+#: includes/user/templates/sidebar.php:14
+#: includes/user/templates/sidebar.php:61
+msgid "Not specified"
+msgstr "Көрсетілмеген"
+
+#: includes/common/send_custom_email.php:30
+msgid "Notification"
+msgstr "Хабарлама"
+
+#: languages/dummy_strings.php:77
+msgid "Office Registrar"
+msgstr "Тіркеу кеңсесі"
+
+#: includes/resource/booking_ajax.php:1240
+msgid "One or more selected slots are in the past or have already started."
+msgstr "Таңдалған уақыт аралығының мерзімі өткен немесе басталған."
+
+#: includes/common/templates/home.php:20
+msgid ""
+"Online platform for optimization and management of internal processes of %s"
+msgstr ""
+"%s ішкі үрдістерін оңтайландыру мен басқаруға арналған онлайн-платформа"
+
+#: includes/common/templates/home.php:146
+msgid "Or follow these steps:"
+msgstr "Немесе келесі қадамдарды орындаңыз:"
+
+#: languages/dummy_strings.php:17
+msgid "Other Equipment"
+msgstr "Басқа жабдықтар"
+
+#: languages/dummy_strings.php:24
+msgid "Other Event"
+msgstr "Басқа іс-шара"
+
+#: languages/dummy_strings.php:11
+msgid "Other Space"
+msgstr "Басқа кеңістік"
+
+#: includes/user/templates/sidebar.php:108 includes/user/templates/staff.php:6
+msgid "Our Staff"
+msgstr "Біздің қызметкерлер"
+
+#: includes/user/templates/sidebar.php:114
+#: includes/user/templates/students.php:6
+msgid "Our Students"
+msgstr "Біздің студенттер "
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:142
+msgid "Parent Role"
+msgstr "Негізгі рөл"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:122
+msgid "Parent Role (if it is a subrole)"
+msgstr "Негізгі рөл (қосалқы рөл болған жағдайда)"
+
+#: includes/event/templates/single-event.php:311
+msgid "Participants"
+msgstr "Қатысушылар"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:916
+#: includes/user/class-spaces_mnu_plugin-user-public.php:947
+msgid "Permission denied."
+msgstr "Рұксат берілмеді."
+
+#: includes/common/email-templates/success-booking-resource.php:154
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:103
+#: includes/user/templates/edit_profile_form.php:51
+msgid "Phone"
+msgstr "Телефон нөмірі"
+
+#: languages/dummy_strings.php:15
+msgid "Photo"
+msgstr "Сурет"
+
+#: includes/resource/templates/single-resource.php:696
+msgid "Please enter a reason for booking."
+msgstr "Брондау себебін енгізіңіз."
+
+#: includes/resource/booking_ajax.php:1246
+#: includes/user/class-spaces_mnu_plugin-user-public.php:57
+msgid "Please enter a reason for cancellation."
+msgstr "Брондауды жою себебін енгізіңіз."
+
+#: includes/resource/templates/single-resource.php:680
+msgid "Please select at least one slot."
+msgstr "Кемінде бір уақыт аралығын таңдаңыз."
+
+#: languages/dummy_strings.php:63
+msgid "PR-Office"
+msgstr "PR-кеңсе"
+
+#: includes/common/templates/home.php:395
+#: includes/user/templates/events.php:203
+#: includes/user/templates/resources.php:208
+msgid "Prev"
+msgstr "Алдыңғы"
+
+#: languages/dummy_strings.php:50
+msgid "Profile"
+msgstr "Парақша"
+
+#: includes/user/templates/edit_profile_form.php:23
+#| msgid "Profile photo"
+msgid "Profile Photo"
+msgstr "Парақша суреті"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:157
+msgid "Profile updated successfully!"
+msgstr "Парақша сәтті жаңартылды!"
+
+#: languages/dummy_strings.php:87
+msgid "Project Office"
+msgstr "Жобалық кеңсе"
+
+#: languages/dummy_strings.php:86
+msgid "Quality Assurance Office"
+msgstr "Сапаны қамтамасыз ету басқармасы"
+
+#: languages/dummy_strings.php:10
+msgid "Reading"
+msgstr "Оқу залы"
+
+#: includes/resource/templates/single-resource.php:174
+#: includes/user/templates/requests.php:29
+msgid "Reason"
+msgstr "Себеп"
+
+#: includes/resource/booking_ajax.php:1253
+#: includes/user/class-spaces_mnu_plugin-user-public.php:64
+msgid "Reason for booking"
+msgstr "Брондау себебі"
+
+#: includes/resource/booking_ajax.php:1254
+#: includes/user/class-spaces_mnu_plugin-user-public.php:65
+#: includes/user/templates/all-bookings.php:53
+#: includes/user/templates/bookings.php:28
+#: includes/user/templates/calendar.php:28
+msgid "Reason for cancellation"
+msgstr "Брондауды жою себебі"
+
+#: includes/user/templates/requests.php:45
+msgid "Reject"
+msgstr "Мақұлдамау"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:177
+#: includes/event/event_assets.php:70
+#: includes/event/templates/event-localized-fields-meta-box.php:81
+#: includes/resource/resource_assets.php:54
+#: includes/resource/templates/resource-localized-fields-meta-box.php:61
+msgid "Remove"
+msgstr "Жою"
+
+#: includes/resource/booking_ajax.php:1250
+#: includes/user/class-spaces_mnu_plugin-user-public.php:61
+#: includes/user/templates/all-bookings.php:18
+#: includes/user/templates/all-bookings.php:19
+msgid "Requested By"
+msgstr "Сұраныс жіберуші"
+
+#: includes/user/templates/sidebar.php:78
+msgid "Requests"
+msgstr "Сұраныстар"
+
+#: includes/resource/templates/single-resource.php:175
+msgid "Required booking reason"
+msgstr "Брондау себебін міндетті түрде енгізіңіз"
+
+#: includes/resource/booking_ajax.php:1251
+#: includes/resource/resource_post_type.php:22
+#: includes/user/class-spaces_mnu_plugin-user-public.php:62
+msgid "Resource"
+msgstr "Ресурс"
+
+#: includes/resource/resource_admin_menu.php:36
+#: includes/resource/resource_admin_menu.php:37
+#: includes/resource/resource_post_type.php:82
+#: includes/resource/resource_post_type.php:90
+#: includes/resource/templates/resource-static-fields-meta-box.php:56
+msgid "Resource Categories"
+msgstr "Ресурс санаттары"
+
+#: includes/common/templates/home.php:73
+#: includes/resource/resource_post_type.php:83
+msgid "Resource Category"
+msgstr "Ресурс санаты"
+
+#: includes/resource/resource_ajax.php:390
+msgid "Resource created successfully."
+msgstr "Ресурс сәтті қосылды."
+
+#: includes/resource/resource_meta_boxes.php:37
+msgid "Resource Details"
+msgstr "Ресурс туралы мәлімет"
+
+#: includes/resource/resource_meta_boxes.php:46
+msgid "Resource Localized Details"
+msgstr "Ресурс туралы аударылған мәлімет"
+
+#: includes/common/templates/home.php:63
+#: includes/user/templates/all-bookings.php:22
+#: includes/user/templates/all-bookings.php:23
+msgid "Resource Name"
+msgstr "Ресурс атауы"
+
+#: includes/resource/resource_frontend_forms.php:56
+#: includes/user/class-spaces_mnu_plugin-user-public.php:112
+msgid "Resource not found."
+msgstr "Ресурс табылмады."
+
+#: includes/resource/resource_ajax.php:787
+#| msgid "Resource successfully deleted, associated bookings cancelled."
+msgid "Resource successfully deleted, associated upcoming bookings cancelled."
+msgstr "Ресурс сәтті жойылды, оған қатысты брондаулардың күші жойылды."
+
+#: includes/resource/resource_post_type.php:59
+#: includes/resource/templates/resource-static-fields-meta-box.php:43
+msgid "Resource Type"
+msgstr "Ресурс түрі"
+
+#: includes/resource/resource_admin_menu.php:28
+#: includes/resource/resource_admin_menu.php:29
+#: includes/resource/resource_post_type.php:58
+#: includes/resource/resource_post_type.php:66
+msgid "Resource Types"
+msgstr "Ресурс түрлері"
+
+#: includes/resource/resource_ajax.php:374
+msgid "Resource updated successfully."
+msgstr "Ресурс сәтті жаңартылды."
+
+#: includes/resource/resource_admin_menu.php:17
+#: includes/resource/resource_admin_menu.php:18
+#: includes/resource/resource_post_type.php:21
+#: includes/resource/resource_post_type.php:31
+msgid "Resources"
+msgstr "Ресурстар"
+
+#: includes/event/templates/event-static-fields-meta-box.php:146
+#: includes/resource/templates/resource-static-fields-meta-box.php:96
+msgid "Responsible Users"
+msgstr "Жауапты қолданушылар"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:59
+#: includes/user/class-spaces_mnu_plugin-user-public.php:826
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1087
+msgid "Role"
+msgstr "Рөл "
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:47
+msgid "Role added successfully."
+msgstr "Рөл сәтті қосылды."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:51
+msgid "Role changed successfully."
+msgstr "Рөл сәтті өзгертілді."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:118
+msgid "Role ID"
+msgstr "Рөлдің идентификаторы"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:43
+msgid "Role Management"
+msgstr "Рөлдерді басқару"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:114
+msgid "Role Title"
+msgstr "Рөлдің атауы"
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:980
+msgid "Role updated successfully!"
+msgstr "Рөл сәтті жаңартылды!"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:19
+#: includes/admin/class-spaces_mnu_roles-admin.php:20
+msgid "Roles"
+msgstr "Рөлдер"
+
+#: languages/dummy_strings.php:64
+msgid "Sales Department"
+msgstr "Сату бөлімі"
+
+#: languages/dummy_strings.php:57
+msgid "Saturday"
+msgstr "Сенбі"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:121
+#: includes/admin/class-spaces_mnu_roles-admin.php:176
+#: includes/event/event_frontend_forms.php:84
+#: includes/resource/resource_frontend_forms.php:84
+#: includes/user/class-spaces_mnu_plugin-user-public.php:820
+#: includes/user/class-spaces_mnu_plugin-user-public.php:845
+#: includes/user/class-spaces_mnu_plugin-user-public.php:1108
+#: includes/user/templates/edit_profile_form.php:85
+msgid "Save"
+msgstr "Сақтау"
+
+#: includes/user/templates/sidebar.php:64
+msgid "School"
+msgstr "Мектеп"
+
+#: languages/dummy_strings.php:29
+msgid "School of Liberal Arts"
+msgstr "Жоғары Гуманитарлық Мектеп"
+
+#: languages/dummy_strings.php:43
+msgid "School of Liberal Arts Student"
+msgstr "Жоғары гуманитарлық мектебінің студенті"
+
+#: includes/common/templates/home.php:102
+msgid "Search"
+msgstr "Іздеу"
+
+#: includes/user/templates/staff.php:15 includes/user/templates/students.php:15
+msgid "Search by name..."
+msgstr "Аты-жөні бойынша іздеу..."
+
+#: includes/event/templates/event-static-fields-meta-box.php:125
+#: includes/resource/templates/resource-static-fields-meta-box.php:75
+msgid "Search categories..."
+msgstr "Санаттарды іздеу..."
+
+#: includes/event/event_post_type.php:84
+msgid "Search Event Categories"
+msgstr "Іс-шара санатын іздеу"
+
+#: includes/event/event_post_type.php:60
+msgid "Search Event Types"
+msgstr "Іс-шара түрлерін іздеу"
+
+#: includes/event/event_post_type.php:28
+msgid "Search Events"
+msgstr "Іс-шараны іздеу"
+
+#: includes/resource/resource_post_type.php:84
+msgid "Search Resource Categories"
+msgstr "Ресурс санатын іздеу"
+
+#: includes/resource/resource_post_type.php:60
+msgid "Search Resource Types"
+msgstr "Ресурс түрлерін іздеу"
+
+#: includes/resource/resource_post_type.php:28
+msgid "Search Resources"
+msgstr "Ресурстарды іздеу"
+
+#: includes/event/templates/event-static-fields-meta-box.php:296
+msgid "Search resources or enter location"
+msgstr "Ресурстарды іздеу немесе локацияны енгізу"
+
+#: includes/event/templates/event-static-fields-meta-box.php:171
+msgid "Search Responsible Users..."
+msgstr "Жауапты қолданушыларды іздеу..."
+
+#: includes/event/templates/event-static-fields-meta-box.php:198
+#: includes/resource/templates/resource-static-fields-meta-box.php:144
+msgid "Search roles..."
+msgstr "Рөлдерді іздеу..."
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:119
+msgid "Search users..."
+msgstr "Қолданушыларды іздеу..."
+
+#: includes/event/templates/event-static-fields-meta-box.php:328
+msgid "Seat Count"
+msgstr "Орын саны"
+
+#: languages/dummy_strings.php:74
+msgid "Security Service"
+msgstr "Бақылау қызметі"
+
+#: languages/dummy_strings.php:37
+msgid "Security Staff"
+msgstr "Қауіпсіздік қызметі"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:50
+msgid "Select a department"
+msgstr "Департаментті таңдаңыз "
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:124
+msgid "Select a parent role"
+msgstr "Негізгі рөлді таңдаңыз"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:62
+msgid "Select a role"
+msgstr "Рөлді таңдаңыз"
+
+#: includes/common/templates/home.php:163
+msgid "Select Add to Home Screen"
+msgstr "«Басты экранға қосу»-ды таңдаңыз"
+
+#: includes/resource/templates/single-resource.php:154
+msgid "Select an available date"
+msgstr "Қолжетімді күнді таңдаңыз"
+
+#: includes/resource/templates/single-resource.php:160
+msgid "Select available time slots"
+msgstr "Қолжетімді уақыт аралығын таңдаңыз"
+
+#: includes/common/templates/home.php:90 includes/common/templates/home.php:252
+msgid "Select Category"
+msgstr "Санатты таңдау"
+
+#: includes/event/templates/event-static-fields-meta-box.php:97
+msgid "Select Event Type"
+msgstr "Іс-шараның түрін таңдау"
+
+#: includes/event/event_assets.php:77 includes/resource/resource_assets.php:61
+msgid "Select Images"
+msgstr "Суреттерді таңдау"
+
+#: includes/resource/templates/resource-static-fields-meta-box.php:45
+msgid "Select Resource Type"
+msgstr "Ресурс түрін таңдау"
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:55
+msgid "Select the department the user works in"
+msgstr "Қолданушы жұмыс жасайтын департаментті таңдаңыз"
+
+#: includes/event/templates/event-static-fields-meta-box.php:323
+msgid "Select the public start time of the event."
+msgstr "Іс-шараның жалпы басталу уақытын таңдаңыз."
+
+#: includes/event/templates/event-static-fields-meta-box.php:315
+#| msgid "Select the start and end time of the event."
+msgid "Select the technical start and end time of the event."
+msgstr "Іс-шараның техникалық басталу және аяқталу уақытын таңдаңыз."
+
+#: includes/user/class-spaces_mnu_plugin-user-fields.php:99
+msgid "Select user role"
+msgstr "Қолданушының рөлін таңдаңыз"
+
+#: languages/dummy_strings.php:39
+msgid "Senior Management Staff"
+msgstr "Жоғарғы Басқарма "
+
+#: languages/dummy_strings.php:48
+msgid "Sign In"
+msgstr "Жүйеге кіру"
+
+#: languages/dummy_strings.php:49
+msgid "Sign Out"
+msgstr "Жүйеден шығу"
+
+#: includes/user/templates/events.php:60
+#: includes/user/templates/resources.php:66
+msgid "Slot"
+msgstr "Слот"
+
+#: includes/user/templates/all-bookings.php:34
+msgid "Slot start"
+msgstr "Басталу уақыты"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:146
+#: includes/common/email-templates/cancellation-booking-resource.php:138
+#: includes/common/email-templates/success-booking-resource.php:138
+#: includes/resource/booking_ajax.php:1252
+#: includes/user/class-spaces_mnu_plugin-user-public.php:63
+msgid "Slots"
+msgstr "Уақыт аралығы"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:101
+msgid "Slug"
+msgstr "Слаг"
+
+#: includes/common/email-templates/success-booking-resource.php:135
+#: languages/dummy_strings.php:4
+msgid "Space"
+msgstr "Кеңістік"
+
+#: includes/common/templates/home.php:18
+msgid "Spaces MNU "
+msgstr "Spaces MNU "
+
+#. Plugin Name of the plugin
+#: spaces_mnu_plugin.php
+msgid "Spaces MNU Plugin"
+msgstr "Spaces MNU Plugin"
+
+#: includes/event/templates/event-static-fields-meta-box.php:330
+msgid "Specify the number of available seats for the event."
+msgstr "Іс-шарада қолжетімді орындардың санын көрсетіңіз."
+
+#: languages/dummy_strings.php:22
+msgid "Sports Event"
+msgstr "Спорттық іс-шара"
+
+#: languages/dummy_strings.php:34
+msgid "Staff"
+msgstr "Қызметкерлер"
+
+#: includes/common/email-templates/cancellation-booking-event.php:138
+#: includes/common/email-templates/event-invitation-cancellation.php:135
+#: includes/common/email-templates/event-invitation.php:135
+#: includes/common/email-templates/success-booking-event.php:135
+msgid "Start Time"
+msgstr "Басталу уақыты"
+
+#: includes/event/templates/event-static-fields-meta-box.php:89
+#: includes/resource/templates/resource-static-fields-meta-box.php:36
+msgid "Static Fields"
+msgstr "Тұрақты жолдар"
+
+#: includes/user/templates/all-bookings.php:26
+msgid "Status"
+msgstr "Растау күйі"
+
+#: includes/user/templates/sidebar.php:46 languages/dummy_strings.php:40
+msgid "Student"
+msgstr "Студент"
+
+#: languages/dummy_strings.php:23
+msgid "Student Event"
+msgstr "Студенттік іс-шара"
+
+#: includes/resource/booking_ajax.php:1190
+msgid "Successful Event Booking"
+msgstr "Іс-шара сәтті брондалды"
+
+#: includes/resource/booking_ajax.php:815
+msgid "Successful Resource Booking"
+msgstr "Ресурс сәтті брондалды"
+
+#: languages/dummy_strings.php:58
+msgid "Sunday"
+msgstr "Жексенбі"
+
+#: includes/common/send_custom_email.php:10
+msgid "Template name is required."
+msgstr "Үлгі атауын енгізіңіз. "
+
+#: includes/common/send_custom_email.php:17
+msgid "Template not found: "
+msgstr "Үлгі табылмады:"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:61
+msgid "The department has been successfully changed"
+msgstr "Департамент сәтті өзгертілді. "
+
+#: includes/admin/class-spaces_mnu_department-admin.php:65
+msgid "The department has been successfully removed"
+msgstr "Департамент сәтті жойылды."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:73
+msgid "The department slug contains invalid characters"
+msgstr "Департамент слагында жарамсыз таңбалар бар. "
+
+#: includes/event/templates/single-event.php:275
+msgid "The event does not require registration to participate."
+msgstr "Іс-шара тіркелуді қажет етпейді. "
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:119
+msgid ""
+"The ID can only contain lowercase Latin letters, numbers, and underscores."
+msgstr ""
+"Идентификатор ішінде тек кіші латын әріптері, сандар мен астынғы сызықшалар "
+"болуы мүмкін."
+
+#: includes/resource/booking_ajax.php:251
+#: includes/resource/booking_ajax.php:391
+msgid "The resource has been removed"
+msgstr "Ресурс жойылды"
+
+#: includes/resource/templates/single-resource.php:200
+msgid "The resource is not available for booking"
+msgstr "Ресурсты брондау мүмкін емес"
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:63
+msgid "The role ID contains invalid characters."
+msgstr "Рөл идентификаторында жарамсыз таңбалар бар."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:55
+msgid "The role was successfully removed."
+msgstr "Рөл сәтті жойылды."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:89
+#: includes/admin/class-spaces_mnu_department-admin.php:120
+msgid "The slug can only contain lowercase Latin letters, numbers and hyphens."
+msgstr ""
+"Слог ішінде тек кіші латын әріптері, сандар мен сызықшалар болуы мүмкін."
+
+#: includes/event/event_assets.php:80
+msgid "There are bookings on this event:"
+msgstr "Бұл іс-шараға брондаулар бар:"
+
+#: includes/resource/resource_assets.php:64
+msgid "There are bookings on this resource:"
+msgstr "Бұл ресурстың брондаулары бар:"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:137
+msgid "There are no departments to display."
+msgstr "Көрсетуге болатын департаменттер жоқ."
+
+#: includes/admin/class-spaces_mnu_roles-admin.php:184
+msgid "There are no roles to display."
+msgstr "Көрсетуге болатын рөлдер жоқ."
+
+#: includes/event/templates/single-event.php:287
+msgid "This event is not available for booking"
+msgstr "Бұл іс-шараны брондау мүмкін емес."
+
+#. Description of the plugin
+#: spaces_mnu_plugin.php
+msgid "This is a description of the plugin."
+msgstr "Бұл плагиннің сипаттамасы."
+
+#: languages/dummy_strings.php:55
+msgid "Thursday"
+msgstr "Бейсенбі"
+
+#: includes/user/templates/requests.php:28
+msgid "Time Slot"
+msgstr "Уақыт аралығы"
+
+#: includes/admin/class-spaces_mnu_department-admin.php:102
+#: includes/admin/class-spaces_mnu_roles-admin.php:140
+msgid "Title"
+msgstr "Атауы"
+
+#: languages/dummy_strings.php:53
+msgid "Tuesday"
+msgstr "Сейсенбі"
+
+#: includes/user/templates/events.php:51
+#: includes/user/templates/resources.php:57
+msgid "Type"
+msgstr "Түрі"
+
+#: includes/common/email-templates/cancellation-all-bookings-resource.php:137
+msgid ""
+"Unfortunately, all your upcoming bookings for the resource «%s» have been "
+"cancelled due to resource deletion."
+msgstr ""
+"Өкінішке орай, «%s» ресурсы жойылғандықтан, оған қатысты барлық келешек "
+"брондауларыңыздың күші жойылды."
+
+#: includes/common/email-templates/cancellation-booking-resource.php:130
+msgid "Unfortunately, your booking «%s» has been cancelled due to — «%s»."
+msgstr "Өкінішке орай, сіздің «%s» брондауыңыз келесі себеппен жойылды — «%s»."
+
+#: includes/common/email-templates/event-invitation-cancellation.php:128
+msgid "Unfortunately, your invitation for «%s» has been cancelled."
+msgstr "Өкінішке орай, сіздің «%s» іс-шарасына шақыруыңыздың күші жойылды. "
+
+#: includes/common/email-templates/cancellation-booking-event.php:130
+msgid ""
+"Unfortunately, your registration for «%s» has been cancelled due to — «%s»."
+msgstr ""
+"Өкінішке орай, «%s» іс-шарасына тіркелуіңіздің күші мына себеппен —  «%s» "
+"жойылды."
+
+#: includes/event/event_ajax.php:679 includes/event/event_ajax.php:691
+msgid "Unnamed Event"
+msgstr "Атауы жоқ іс-шара"
+
+#: includes/resource/resource_ajax.php:365
+#: includes/resource/resource_ajax.php:378
+msgid "Unnamed Resource"
+msgstr "Атауы жоқ ресурс"
+
+#: includes/event/event_post_type.php:87
+msgid "Update Event Category"
+msgstr "Іс-шара санатын жаңарту"
+
+#: includes/event/event_post_type.php:63
+msgid "Update Event Type"
+msgstr "Іс-шара түрлерін жаңарту"
+
+#: includes/resource/resource_post_type.php:87
+msgid "Update Resource Category"
+msgstr "Ресурс санаттарын жаңарту"
+
+#: includes/resource/resource_post_type.php:63
+msgid "Update Resource Type"
+msgstr "Ресурс түрлерін жаңарту"
+
+#: includes/user/templates/edit_profile_form.php:27
+msgid "Upload file"
+msgstr "Файлды жүктеу"
+
+#: includes/event/templates/event-static-fields-meta-box.php:131
+#: includes/resource/templates/resource-static-fields-meta-box.php:81
+msgid "Upload Images"
+msgstr "Суреттерді жүктеу"
+
+#: includes/event/event_assets.php:86 includes/resource/resource_assets.php:70
+msgid "User:"
+msgstr "Пайдаланушы:"
+
+#: includes/event/event_assets.php:69 includes/resource/resource_assets.php:53
+msgid "Value"
+msgstr "Мағына"
+
+#: languages/dummy_strings.php:14
+msgid "Video"
+msgstr "Видео"
+
+#: includes/event/event_post_type.php:27
+msgid "View Event"
+msgstr "Іс-шараны көру"
+
+#: includes/resource/resource_post_type.php:27
+msgid "View Resource"
+msgstr "Ресурсты көру"
+
+#: includes/common/email-templates/event-invitation.php:128
+msgid "We inform you that you have been invited to the event «%s»."
+msgstr "«%s» іс-шарасына шақырылғаныңызды хабарлаймыз."
+
+#: includes/common/email-templates/success-booking-resource.php:130
+#| msgid "We inform you that you have successfully booked"
+msgid "We inform you that you have successfully booked «%s»."
+msgstr "«%s» сәтті брондалғанын хабарлаймыз."
+
+#: includes/common/email-templates/success-booking-event.php:128
+msgid "We inform you that your registration for the event «%s» was successful."
+msgstr "«%s» іс-шарасына тіркелу сәтті өткенін хабарлаймыз."
+
+#: languages/dummy_strings.php:54
+msgid "Wednesday"
+msgstr "Сәрсенбі"
+
+#: includes/event/templates/single-event.php:278
+msgid "You do not have access to this event."
+msgstr "Бұл іс-шара сіз үшін қолжетімсіз."
+
+#: includes/resource/templates/single-resource.php:191
+msgid "You do not have access to this resource."
+msgstr "Бұл ресурс сіз үшін қолжетімсіз."
+
+#: includes/event/event_frontend_forms.php:47
+msgid "You do not have permission to create or edit events."
+msgstr "Бұл іс-шараны қосуға немесе өңдеуге рұқсатыңыз жоқ."
+
+#: includes/resource/resource_frontend_forms.php:47
+msgid "You do not have permission to create or edit resources."
+msgstr "Бұл ресурсты қосуға немесе өңдеуге рұқсатыңыз жоқ."
+
+#: includes/event/event_ajax.php:673 includes/event/event_frontend_forms.php:61
+msgid "You do not have permission to edit this event."
+msgstr "Бұл іс-шараны өңдеуге рұқсатыңыз жоқ."
+
+#: includes/resource/resource_ajax.php:358
+#: includes/resource/resource_frontend_forms.php:61
+msgid "You do not have permission to edit this resource."
+msgstr "Бұл ресурсты өңдеуге рұқсатыңыз жоқ."
+
+#: includes/admin/class-spaces_mnu_department-admin.php:154
+#: includes/admin/class-spaces_mnu_department-admin.php:202
+#: includes/admin/class-spaces_mnu_department-admin.php:261
+#: includes/admin/class-spaces_mnu_roles-admin.php:284
+#: includes/admin/class-spaces_mnu_roles-admin.php:325
+#: includes/admin/class-spaces_mnu_roles-admin.php:359
+msgid "You do not have permission to perform this action."
+msgstr "Бұл әрекетті орындауға рұқсатыңыз жоқ."
+
+#: includes/resource/booking_ajax.php:1241
+msgid "You have already booked slots for this date."
+msgstr "Сіз бұл күнге уақыт аралығын брондап қойдыңыз. "
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:103
+msgid "You must be logged in to edit this resource."
+msgstr "Бұл ресурсты өңдеу үшін жүйеге кіру қажет. "
+
+#: includes/user/class-spaces_mnu_plugin-user-public.php:137
+msgid "You must be logged in to edit your profile."
+msgstr "Жеке парақшаңызды өңдеу үшін жүйеге кіру қажет. "
+
+#: includes/event/templates/single-event.php:282
+msgid "You must be logged in to register for this event."
+msgstr "Бұл іс-шараға тіркелу үшін жүйеге кіруіңіз қажет."
+
+#: includes/resource/templates/single-resource.php:195
+msgid "You need to sign in to book a resource."
+msgstr "Бұл ресурсты брондау үшін жүйеге кіру қажет. "
