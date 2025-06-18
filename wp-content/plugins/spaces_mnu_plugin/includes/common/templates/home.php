@@ -20,87 +20,102 @@ $selected_floor = isset($_GET['floor']) ? sanitize_text_field($_GET['floor']) : 
             <?= sprintf(__('Online platform for optimization and management of internal processes of %s', 'spaces_mnu_plugin'), $university_name); ?>
         </p>
     </section>
-    <section class="tw-w-full tw-max-w-7xl tw-mx-auto tw-space-y-4 tw-mb-8 tw-px-6 md:tw-px-12 tw-py-4 tw-rounded-xl tw-bg-gray-200 tw-flex tw-flex-col tw-justify-center tw-items-start tw-bg-cover tw-bg-no-repeat tw-bg-center tw-bg-white/70" style="background-image: url('<?php echo SPACES_MNU_PLUGIN_URL . 'assets/img/home_bg.jpg' ?>');">
-        <div class="">
-            <label class="tw-sr-only">Select Resource Type:</label>
-            <div class="tw-flex tw-flex-wrap tw-justify-start md:tw-justify-center tw-items-center tw-space-x-2 tw-overflow-x-auto tw-border-b tw-w-fit tw-p-1 tw-bg-white tw-rounded-xl">
-                <?php
-                $resource_types = get_terms([
-                    'taxonomy' => 'resource_type',
-                    'hide_empty' => true,
-                ]);
-                $space_term = null;
-                foreach ($resource_types as $key => $type) {
-                    if ($type->slug === 'space') {
-                        $space_term = $type;
-                        unset($resource_types[$key]); // Удаляем его из массива, чтобы не выводить дважды
-                        break;
-                    }
+
+<style>
+    @media (max-width: 767px) {
+        section.tw-flex-col {
+            background-image: none !important;
+            background-color: #ffffff !important;
+        }
+    }
+
+    section.tw-flex-col {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+<section class="tw-w-full tw-max-w-7xl tw-mx-auto tw-space-y-4 tw-mb-8 tw-px-6 md:tw-px-12 tw-py-4 tw-rounded-xl tw-flex tw-flex-col tw-justify-center tw-items-start"
+    style="background-image: url('<?php echo SPACES_MNU_PLUGIN_URL . 'assets/img/home_bg.jpg' ?>');">
+    <div class="">
+        <label class="tw-sr-only">Select Resource Type:</label>
+        <div class="tw-flex tw-flex-wrap tw-justify-start md:tw-justify-center tw-items-center tw-space-x-2 tw-overflow-x-auto tw-border-b tw-w-fit tw-p-1 tw-bg-white tw-rounded-xl">
+            <?php
+            $resource_types = get_terms([
+                'taxonomy' => 'resource_type',
+                'hide_empty' => true,
+            ]);
+            $space_term = null;
+            foreach ($resource_types as $key => $type) {
+                if ($type->slug === 'space') {
+                    $space_term = $type;
+                    unset($resource_types[$key]); // Удаляем его из массива, чтобы не выводить дважды
+                    break;
                 }
-                if ($space_term): ?>
-                    <button class="resource-tab tw-px-8 tw-py-4 tw-rounded-lg tw-text-sm <?= $selected_type === $space_term->slug ? 'tw-bg-[#E2474C] tw-text-white' : 'tw-bg-transparent tw-text-[#ACACAE]'; ?> tw-transition-all tw-duration-300 tw-ease-in-out"
-                        data-type="<?= esc_attr($space_term->slug); ?>">
-                        <?= esc_html(__($space_term->name, 'spaces_mnu_plugin')); ?>
-                    </button>
-                <?php endif; ?>
-                <?php foreach ($resource_types as $type) : ?>
-                    <button class="resource-tab tw-px-8 tw-py-4 tw-rounded-lg tw-text-sm <?= $selected_type === $type->slug ? 'tw-bg-[#E2474C] tw-text-white' : 'tw-bg-transparent tw-text-[#ACACAE]'; ?> tw-transition-all tw-duration-300 tw-ease-in-out"
-                        data-type="<?= esc_attr($type->slug); ?>">
-                        <?= esc_html(__($type->name, 'spaces_mnu_plugin')); ?>
-                    </button>
-                <?php endforeach; ?>
-                <button class="resource-tab tw-px-8 tw-py-4 tw-rounded-lg tw-text-sm <?= $selected_type === 'event' ? 'tw-bg-[#E2474C] tw-text-white' : 'tw-bg-transparent tw-text-[#ACACAE]'; ?> tw-transition-all tw-duration-300 tw-ease-in-out"
-                    data-type="event">
-                    <?= esc_html(__('Event', 'spaces_mnu_plugin')); ?>
+            }
+            if ($space_term): ?>
+                <button class="resource-tab tw-px-8 tw-py-4 tw-rounded-lg tw-text-sm <?= $selected_type === $space_term->slug ? 'tw-bg-[#E2474C] tw-text-white' : 'tw-bg-transparent tw-text-[#ACACAE]'; ?> tw-transition-all tw-duration-300 tw-ease-in-out"
+                    data-type="<?= esc_attr($space_term->slug); ?>">
+                    <?= esc_html(__($space_term->name, 'spaces_mnu_plugin')); ?>
                 </button>
-            </div>
+            <?php endif; ?>
+            <?php foreach ($resource_types as $type) : ?>
+                <button class="resource-tab tw-px-8 tw-py-4 tw-rounded-lg tw-text-sm <?= $selected_type === $type->slug ? 'tw-bg-[#E2474C] tw-text-white' : 'tw-bg-transparent tw-text-[#ACACAE]'; ?> tw-transition-all tw-duration-300 tw-ease-in-out"
+                    data-type="<?= esc_attr($type->slug); ?>">
+                    <?= esc_html(__($type->name, 'spaces_mnu_plugin')); ?>
+                </button>
+            <?php endforeach; ?>
+            <button class="resource-tab tw-px-8 tw-py-4 tw-rounded-lg tw-text-sm <?= $selected_type === 'event' ? 'tw-bg-[#E2474C] tw-text-white' : 'tw-bg-transparent tw-text-[#ACACAE]'; ?> tw-transition-all tw-duration-300 tw-ease-in-out"
+                data-type="event">
+                <?= esc_html(__('Event', 'spaces_mnu_plugin')); ?>
+            </button>
         </div>
-        <div class="tw-w-full">
-            <label class="tw-sr-only">Advanced Filter:</label>
-            <div class="tw-grid tw-grid-cols-12 tw-justify-center tw-items-center tw-gap-4 tw-w-full">
-                <div class="tw-col-span-12 tw-bg-white tw-rounded-lg tw-border tw-p-0 tw-shadow-sm tw-flex tw-flex-col sm:tw-flex-row tw-gap-4">
-                    <div class="tw-relative tw-flex-grow">
-                        <label class="tw-sr-only tw-hidden tw-absolute tw-left-12 tw-top-2 tw-text-xs tw-text-gray-500"><?= __('Resource Name', 'spaces_mnu_plugin'); ?></label>
-                        <span class="tw-absolute tw-left-4 tw-bottom-3 tw-text-gray-400">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 8.01562C0 12.4353 3.59598 16.0312 8.01562 16.0312C9.76337 16.0312 11.3605 15.4688 12.6764 14.5245L17.6183 19.4766C17.8493 19.7076 18.1507 19.8181 18.4721 19.8181C19.1552 19.8181 19.6272 19.3058 19.6272 18.6328C19.6272 18.3114 19.5067 18.0201 19.2957 17.8091L14.3839 12.8672C15.4185 11.5212 16.0312 9.84377 16.0312 8.01562C16.0312 3.59598 12.4353 0 8.01562 0C3.59598 0 0 3.59598 0 8.01562ZM1.71764 8.01562C1.71764 4.54018 4.54018 1.71764 8.01562 1.71764C11.491 1.71764 14.3136 4.54018 14.3136 8.01562C14.3136 11.491 11.491 14.3136 8.01562 14.3136C4.54018 14.3136 1.71764 11.491 1.71764 8.01562Z" fill="#262626" />
-                            </svg>
-                        </span>
-                        <input type="text" id="resourceSearch" class="focus:tw-outline-none focus:tw-ring-0 focus:tw-border-transparent tw-h-full tw-pl-12 tw-pr-4 tw-pt-3 tw-pb-3 tw-border-none tw-rounded-lg tw-w-full tw-bg-white" placeholder="<?php echo __('Enter the resource name', 'spaces_mnu_plugin') ?>" value="<?= esc_attr($search_query); ?>">
-                    </div>
-                    <div class="tw-hidden sm:tw-block tw-h-10 tw-my-auto tw-w-px tw-bg-gray-300"></div>
-                    <div class="tw-relative tw-flex-grow">
-                        <label class="tw-sr-only tw-hidden tw-absolute tw-left-12 tw-top-2 tw-text-xs tw-text-gray-500"><?= __('Resource Category', 'spaces_mnu_plugin'); ?></label>
-                        <span class="tw-absolute tw-left-4 tw-bottom-3 tw-text-gray-400">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_541_10737)">
-                                    <path d="M7.31529 17.9631H17.7215C18.1736 17.9631 18.5351 17.6116 18.5351 17.1595C18.5351 16.7076 18.1736 16.3459 17.7215 16.3459H7.31529C6.86328 16.3459 6.51172 16.7076 6.51172 17.1595C6.51172 17.6116 6.86328 17.9631 7.31529 17.9631Z" fill="#262626" />
-                                    <path d="M5.25698 12.7903H19.7916C20.2436 12.7903 20.5952 12.4387 20.5952 11.9867C20.5952 11.5347 20.2436 11.1731 19.7916 11.1731H5.25698C4.80496 11.1731 4.44336 11.5347 4.44336 11.9867C4.44336 12.4387 4.80496 12.7903 5.25698 12.7903Z" fill="#262626" />
-                                    <path d="M3.13756 7.61719H21.8507C22.3028 7.61719 22.6543 7.26562 22.6543 6.81362C22.6543 6.36161 22.3028 6 21.8507 6H3.13756C2.68555 6 2.33398 6.36161 2.33398 6.81362C2.33398 7.26562 2.68555 7.61719 3.13756 7.61719Z" fill="#262626" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_541_10737">
-                                        <rect width="20.3203" height="11.9833" fill="white" transform="translate(2.33398 6)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </span>
-                        <select id="categoryDropdown" class="tw-appearance-none focus:tw-outline-none focus:tw-ring-0 focus:tw-border-transparent tw-h-full tw-pl-12 tw-pr-4 tw-pt-3 tw-pb-3 tw-border-none tw-rounded-lg tw-w-full tw-bg-white">
-                            <option value="" disabled selected class="tw-appearance-none" style="color: #A1A1A1; font-size: 0.875rem;">
-                                <?= __('Select Category', 'spaces_mnu_plugin'); ?>
-                            </option>
-                            <?php
-                            $categories = get_terms([
-                                'taxonomy' => 'resource_category',
-                                'hide_empty' => true,
-                            ]);
-                            foreach ($categories as $category) : ?>
-                                <option value="<?= esc_attr($category->slug); ?>" <?= $selected_category === $category->slug ? 'selected' : ''; ?>><?= esc_html(__($category->name, 'spaces_mnu_plugin')); ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                    </div>
-                    <button id="searchButton" class="tw-bg-[#262626] hover:tw-bg-[#333333] tw-text-white tw-my-auto tw-px-8 tw-py-4 tw-rounded tw-h-full"><?= __('Search', 'spaces_mnu_plugin') ?></button>
+    </div>
+    <div class="tw-w-full">
+        <label class="tw-sr-only">Advanced Filter:</label>
+        <div class="tw-grid tw-grid-cols-12 tw-justify-center tw-items-center tw-gap-4 tw-w-full">
+            <div class="tw-col-span-12 tw-bg-white tw-rounded-lg tw-border tw-p-0 tw-shadow-sm tw-flex tw-flex-col sm:tw-flex-row tw-gap-4">
+                <div class="tw-relative tw-flex-grow">
+                    <label class="tw-sr-only tw-hidden tw-absolute tw-left-12 tw-top-2 tw-text-xs tw-text-gray-500"><?= __('Resource Name', 'spaces_mnu_plugin'); ?></label>
+                    <span class="tw-absolute tw-left-4 tw-bottom-3 tw-text-gray-400">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 8.01562C0 12.4353 3.59598 16.0312 8.01562 16.0312C9.76337 16.0312 11.3605 15.4688 12.6764 14.5245L17.6183 19.4766C17.8493 19.7076 18.1507 19.8181 18.4721 19.8181C19.1552 19.8181 19.6272 19.3058 19.6272 18.6328C19.6272 18.3114 19.5067 18.0201 19.2957 17.8091L14.3839 12.8672C15.4185 11.5212 16.0312 9.84377 16.0312 8.01562C16.0312 3.59598 12.4353 0 8.01562 0C3.59598 0 0 3.59598 0 8.01562ZM1.71764 8.01562C1.71764 4.54018 4.54018 1.71764 8.01562 1.71764C11.491 1.71764 14.3136 4.54018 14.3136 8.01562C14.3136 11.491 11.491 14.3136 8.01562 14.3136C4.54018 14.3136 1.71764 11.491 1.71764 8.01562Z" fill="#262626" />
+                        </svg>
+                    </span>
+                    <input type="text" id="resourceSearch" class="focus:tw-outline-none focus:tw-ring-0 focus:tw-border-transparent tw-h-full tw-pl-12 tw-pr-4 tw-pt-3 tw-pb-3 tw-border-none tw-rounded-lg tw-w-full tw-bg-white" placeholder="<?php echo __('Enter the resource name', 'spaces_mnu_plugin') ?>" value="<?= esc_attr($search_query); ?>">
                 </div>
+                <div class="tw-hidden sm:tw-block tw-h-10 tw-my-auto tw-w-px tw-bg-gray-300"></div>
+                <div class="tw-relative tw-flex-grow">
+                    <label class="tw-sr-only tw-hidden tw-absolute tw-left-12 tw-top-2 tw-text-xs tw-text-gray-500"><?= __('Resource Category', 'spaces_mnu_plugin'); ?></label>
+                    <span class="tw-absolute tw-left-4 tw-bottom-3 tw-text-gray-400">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_541_10737)">
+                                <path d="M7.31529 17.9631H17.7215C18.1736 17.9631 18.5351 17.6116 18.5351 17.1595C18.5351 16.7076 18.1736 16.3459 17.7215 16.3459H7.31529C6.86328 16.3459 6.51172 16.7076 6.51172 17.1595C6.51172 17.6116 6.86328 17.9631 7.31529 17.9631Z" fill="#262626" />
+                                <path d="M5.25698 12.7903H19.7916C20.2436 12.7903 20.5952 12.4387 20.5952 11.9867C20.5952 11.5347 20.2436 11.1731 19.7916 11.1731H5.25698C4.80496 11.1731 4.44336 11.5347 4.44336 11.9867C4.44336 12.4387 4.80496 12.7903 5.25698 12.7903Z" fill="#262626" />
+                                <path d="M3.13756 7.61719H21.8507C22.3028 7.61719 22.6543 7.26562 22.6543 6.81362C22.6543 6.36161 22.3028 6 21.8507 6H3.13756C2.68555 6 2.33398 6.36161 2.33398 6.81362C2.33398 7.26562 2.68555 7.61719 3.13756 7.61719Z" fill="#262626" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_541_10737">
+                                    <rect width="20.3203" height="11.9833" fill="white" transform="translate(2.33398 6)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </span>
+                    <select id="categoryDropdown" class="tw-appearance-none focus:tw-outline-none focus:tw-ring-0 focus:tw-border-transparent tw-h-full tw-pl-12 tw-pr-4 tw-pt-3 tw-pb-3 tw-border-none tw-rounded-lg tw-w-full tw-bg-white">
+                        <option value="" disabled selected class="tw-appearance-none" style="color: #A1A1A1; font-size: 0.875rem;">
+                            <?= __('Select Category', 'spaces_mnu_plugin'); ?>
+                        </option>
+                        <?php
+                        $categories = get_terms([
+                            'taxonomy' => 'resource_category',
+                            'hide_empty' => true,
+                        ]);
+                        foreach ($categories as $category) : ?>
+                            <option value="<?= esc_attr($category->slug); ?>" <?= $selected_category === $category->slug ? 'selected' : ''; ?>><?= esc_html(__($category->name, 'spaces_mnu_plugin')); ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+                <button id="searchButton" class="tw-bg-[#262626] hover:tw-bg-[#333333] tw-text-white tw-my-auto tw-px-8 tw-py-4 tw-rounded tw-h-full"><?= __('Search', 'spaces_mnu_plugin') ?></button>
             </div>
         </div>
         <div class="tw-w-fit tw-p-4 tw-bg-white tw-rounded-lg" id="floorFilter">

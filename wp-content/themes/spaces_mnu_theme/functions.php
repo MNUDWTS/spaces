@@ -305,3 +305,170 @@ function export_users_csv()
 	exit;
 }
 add_action('admin_init', 'export_users_csv');
+
+// Регистрируем AJAX endpoints
+add_action('wp_ajax_submit_bug_report', 'handle_bug_report_submission');
+add_action('wp_ajax_nopriv_submit_bug_report', 'handle_bug_report_submission');
+
+// Добавляем локализацию для AJAX
+add_action('wp_enqueue_scripts', 'enqueue_bug_report_scripts');
+
+function enqueue_bug_report_scripts() {
+    wp_localize_script('jquery', 'bug_report_ajax', array(
+        'ajax_url' => admin_url('admin-ajax.php'),
+        'nonce' => wp_create_nonce('bug_report_nonce')
+    ));
+}
+
+function handle_bug_report_submission() {
+    // Проверяем nonce для безопасности
+    if (!wp_verify_nonce($_POST['nonce'], 'bug_report_nonce')) {
+        wp_die('Ошибка безопасности');
+    }
+
+    // Получаем и очищаем данные
+    $category = sanitize_text_field($_POST['category']);
+    $priority = sanitize_text_field($_POST['priority']);
+    $description = sanitize_textarea_field($_POST['description']);
+    $steps = sanitize_textarea_field($_POST['steps']);
+    $email = sanitize_email($_POST['email']);
+    $page_url = esc_url_raw($_POST['url']);
+    $user_agent = sanitize_text_field($_POST['user_agent']);
+    $screen_resolution = sanitize_text_field($_POST['screen_resolution']);
+    $viewport_size = sanitize_text_field($_POST['viewport_size']);
+    $timestamp = sanitize_text_field($_POST['timestamp']);
+
+    // Проверяем обязательные поля
+    if (empty($category) || empty($priority) || empty($description)) {
+        wp_send_json_error('Заполните все обязательные поля');
+        return;
+    }
+
+    // Получаем информацию о пользователе
+    $current_user = wp_get_current_user();
+    $user_info = '';
+    if ($current_user->ID != 0) {
+        $user_info = "Пользователь: {$current_user->display_name} ({$current_user->user_email})\n";
+        $user_info .= "ID пользователя: {$current_user->ID}\n";
+    } else {
+        $user_info = "Анонимный пользователь\n";
+    }
+
+    // Переводим категории на русский для email
+    $categories_ru = array(
+        'visual' => 'Проблема дизайна/визуала',
+        'functional' => 'Проблема функциональности',
+        'performance' => 'Проблема производительности',
+        'mobile' => 'Проблема мобильной версии',
+        'content' => 'Ошибка контента',
+        'login' => 'Вход/Авторизация',
+        'other' => 'Другое'
+    );
+
+    $priorities_ru = array(
+        'low' => 'Низкий - незначительная проблема',
+        'medium' => 'Средний - заметная проблема',
+        'high' => 'Высокий - серьёзная проблема',
+        'critical' => 'Критический - сайт не работает'
+    );
+
+    $category_ru = isset($categories_ru[$category]) ? $categories_ru[$category] : $category;
+    $priority_ru = isset($priorities_ru[$priority]) ? $priorities_ru[$priority] : $priority;
+
+    // Формируем сообщение для email
+    $subject = "[SPACES MNU] Отчёт об ошибке - {$priority_ru}";
+    
+    $message = "=== ОТЧЁТ ОБ ОШИБКЕ ===\n\n";
+    $message .= "ОСНОВНАЯ ИНФОРМАЦИЯ:\n";
+    $message .= "Категория: {$category_ru}\n";
+    $message .= "Приоритет: {$priority_ru}\n";
+    $message .= "Дата: " . date('d.m.Y H:i:s', strtotime($timestamp)) . "\n\n";
+    
+    $message .= "ОПИСАНИЕ ОШИБКИ:\n";
+    $message .= "{$description}\n\n";
+    
+    if (!empty($steps)) {
+        $message .= "ШАГИ ДЛЯ ВОСПРОИЗВЕДЕНИЯ:\n";
+        $message .= "{$steps}\n\n";
+    }
+    
+    $message .= "ТЕХНИЧЕСКАЯ ИНФОРМАЦИЯ:\n";
+    $message .= "URL страницы: {$page_url}\n";
+    $message .= "User Agent: {$user_agent}\n";
+    $message .= "Разрешение экрана: {$screen_resolution}\n";
+    $message .= "Размер окна: {$viewport_size}\n\n";
+    
+    $message .= "ИНФОРМАЦИЯ О ПОЛЬЗОВАТЕЛЕ:\n";
+    $message .= $user_info;
+    
+    if (!empty($email)) {
+        $message .= "Email для обратной связи: {$email}\n";
+    }
+    
+    $message .= "\n=== КОНЕЦ ОТЧЁТА ===";
+
+    // Настройки email
+    $to = 'nkuanyshuly2019@gmail.com'; // Основной email для отчетов
+    $headers = array('Content-Type: text/plain; charset=UTF-8');
+    
+    // Добавляем Reply-To если указан email пользователя
+    if (!empty($email)) {
+        $headers[] = "Reply-To: {$email}";
+    }
+
+    // Отправляем email
+    $mail_sent = wp_mail($to, $subject, $message, $headers);
+
+    if ($mail_sent) {
+        // Опционально: сохраняем в базу данных для статистики
+        save_bug_report_to_db($category, $priority, $description, $steps, $email, $page_url, $user_agent, $current_user->ID);
+        
+        wp_send_json_success('Отчёт успешно отправлен');
+    } else {
+        wp_send_json_error('Ошибка отправки отчёта. Попробуйте позже.');
+    }
+}
+
+// Опциональная функция для сохранения в БД
+function save_bug_report_to_db($category, $priority, $description, $steps, $email, $page_url, $user_agent, $user_id) {
+    global $wpdb;
+    
+    // Создаем таблицу если не существует
+    $table_name = $wpdb->prefix . 'bug_reports';
+    
+    $charset_collate = $wpdb->get_charset_collate();
+    
+    $sql = "CREATE TABLE IF NOT EXISTS $table_name (
+        id mediumint(9) NOT NULL AUTO_INCREMENT,
+        category varchar(50) NOT NULL,
+        priority varchar(20) NOT NULL,
+        description text NOT NULL,
+        steps text,
+        user_email varchar(100),
+        page_url text,
+        user_agent text,
+        user_id mediumint(9),
+        status varchar(20) DEFAULT 'new',
+        created_at datetime DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (id)
+    ) $charset_collate;";
+    
+    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+    dbDelta($sql);
+    
+    // Сохраняем отчёт
+    $wpdb->insert(
+        $table_name,
+        array(
+            'category' => $category,
+            'priority' => $priority,
+            'description' => $description,
+            'steps' => $steps,
+            'user_email' => $email,
+            'page_url' => $page_url,
+            'user_agent' => $user_agent,
+            'user_id' => $user_id
+        ),
+        array('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%d')
+    );
+}

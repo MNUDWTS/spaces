@@ -19,6 +19,11 @@
 			<li>
 				<a href="#" class="twt-hover:underline twt-me-4 md:twt-me-6">Privacy Policy</a>
 			</li>
+			<li>
+				<button id="reportBugBtn" class="twt-hover:underline twt-me-4 md:twt-me-6 twt-cursor-pointer twt-bg-transparent twt-border-none twt-text-gray-500 dark:twt-text-gray-400 twt-text-sm twt-font-medium">
+					Нашли ошибку?
+				</button>
+			</li>
 			<div>
 				<?php
 				$langs_array = pll_the_languages(array('dropdown' => 1, 'hide_current' => 1, 'raw' => 1));
@@ -97,7 +102,7 @@
 	}
 </script>
 
-<!-- Modal -->
+<!-- Modal Sign In -->
 <div id="signInModal" class="twt-z-[99999] twt-fixed twt-inset-0 twt-bg-gray-500 twt-bg-opacity-75 twt-transition-opacity twt-opacity-0 twt-pointer-events-none">
 	<div class="twt-flex twt-h-full twt-items-center twt-justify-center twt-p-4 twt-text-center sm:twt-p-0">
 		<div id="signInModalContent" class="twt-z-50 twt-relative twt-transform twt-overflow-hidden twt-rounded-lg twt-bg-white twt-text-left twt-shadow-xl twt-transition-all sm:twt-my-8 sm:twt-w-full sm:twt-max-w-lg">
@@ -131,6 +136,207 @@
 		</div>
 	</div>
 </div>
+
+<!-- Modal Bug Report -->
+<div id="bugReportModal" class="twt-z-[99999] twt-fixed twt-inset-0 twt-bg-gray-500 twt-bg-opacity-75 twt-transition-opacity twt-opacity-0 twt-pointer-events-none">
+	<div class="twt-flex twt-h-full twt-items-center twt-justify-center twt-p-4 twt-text-center sm:twt-p-0">
+		<div id="bugReportModalContent" class="twt-z-50 twt-relative twt-transform twt-overflow-hidden twt-rounded-lg twt-bg-white twt-text-left twt-shadow-xl twt-transition-all sm:twt-my-8 sm:twt-w-full sm:twt-max-w-2xl">
+			
+			<div class="twt-bg-white twt-px-6 twt-py-6">
+				<div class="twt-mb-6">
+					<h3 class="twt-text-2xl twt-font-semibold twt-text-gray-900 twt-mb-2">
+						Сообщить об ошибке
+					</h3>
+					<p class="twt-text-gray-600">
+						Помогите нам улучшить платформу, сообщив о найденных проблемах.
+					</p>
+				</div>
+
+				<form id="bugReportForm" class="twt-space-y-6">
+					<!-- Bug Category -->
+					<div>
+						<label for="bugCategory" class="twt-block twt-text-sm twt-font-medium twt-text-gray-700 twt-mb-2">
+							Категория ошибки <span class="twt-text-red-500">*</span>
+						</label>
+						<select id="bugCategory" name="bug_category" required class="twt-w-full twt-px-3 twt-py-2 twt-border twt-border-gray-300 twt-rounded-md twt-shadow-sm focus:twt-outline-none focus:twt-ring-2 focus:twt-ring-blue-500 focus:twt-border-blue-500">
+							<option value="">Выберите категорию</option>
+							<option value="visual">Проблема дизайна/визуала</option>
+							<option value="functional">Проблема функциональности</option>
+							<option value="performance">Проблема производительности</option>
+							<option value="mobile">Проблема мобильной версии</option>
+							<option value="content">Ошибка контента</option>
+							<option value="login">Вход/Авторизация</option>
+							<option value="other">Другое</option>
+						</select>
+					</div>
+
+					<!-- Priority Level -->
+					<div>
+						<label for="bugPriority" class="twt-block twt-text-sm twt-font-medium twt-text-gray-700 twt-mb-2">
+							Уровень приоритета <span class="twt-text-red-500">*</span>
+						</label>
+						<select id="bugPriority" name="bug_priority" required class="twt-w-full twt-px-3 twt-py-2 twt-border twt-border-gray-300 twt-rounded-md twt-shadow-sm focus:twt-outline-none focus:twt-ring-2 focus:twt-ring-blue-500 focus:twt-border-blue-500">
+							<option value="">Выберите приоритет</option>
+							<option value="low">Низкий - незначительная проблема</option>
+							<option value="medium">Средний - заметная проблема</option>
+							<option value="high">Высокий - серьёзная проблема</option>
+							<option value="critical">Критический - сайт не работает</option>
+						</select>
+					</div>
+
+					<!-- Bug Description -->
+					<div>	
+						<label for="bugDescription" class="twt-block twt-text-sm twt-font-medium twt-text-gray-700 twt-mb-2">
+							Описание ошибки <span class="twt-text-red-500">*</span>
+						</label>
+						<textarea id="bugDescription" name="bug_description" required rows="5" 
+							placeholder="Пожалуйста, опишите ошибку подробно. Укажите, что вы делали когда она произошла, что ожидали увидеть и что увидели на самом деле."
+							class="twt-w-full twt-px-3 twt-py-2 twt-border twt-border-gray-300 twt-rounded-md twt-shadow-sm focus:twt-outline-none focus:twt-ring-2 focus:twt-ring-blue-500 focus:twt-border-blue-500 twt-resize-none"></textarea>
+					</div>
+
+					<!-- Steps to Reproduce -->
+					<div>
+						<label for="bugSteps" class="twt-block twt-text-sm twt-font-medium twt-text-gray-700 twt-mb-2">
+							Шаги для воспроизведения
+						</label>
+						<textarea id="bugSteps" name="bug_steps" rows="4" 
+							placeholder="1. Перейти на... 2. Нажать на... 3. Увидеть ошибку..."
+							class="twt-w-full twt-px-3 twt-py-2 twt-border twt-border-gray-300 twt-rounded-md twt-shadow-sm focus:twt-outline-none focus:twt-ring-2 focus:twt-ring-blue-500 focus:twt-border-blue-500 twt-resize-none"></textarea>
+					</div>
+
+					<!-- Contact Email (if user wants updates) -->
+					<div>
+						<label for="bugEmail" class="twt-block twt-text-sm twt-font-medium twt-text-gray-700 twt-mb-2">
+							Ваш email (необязательно)
+						</label>
+						<input type="email" id="bugEmail" name="bug_email" 
+							placeholder="your.email@example.com"
+							class="twt-w-full twt-px-3 twt-py-2 twt-border twt-border-gray-300 twt-rounded-md twt-shadow-sm focus:twt-outline-none focus:twt-ring-2 focus:twt-ring-blue-500 focus:twt-border-blue-500">
+						<p class="twt-text-xs twt-text-gray-500 twt-mt-1">
+							Необязательно: укажите email, если хотите получать обновления о решении проблемы.
+						</p>
+					</div>
+
+					<!-- Submit Buttons -->
+					<div class="twt-flex twt-justify-end twt-gap-3 twt-pt-4 twt-border-t twt-border-gray-200">
+					<button type="button" id="cancelBugReport" class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition duration-200">	
+						Отмена
+						</button>
+						<button type="submit" id="submitBugReport" class="px-5 py-2 text-sm font-medium text-white bg-[#D62E1F] rounded-md hover:bg-red-600 transition duration-200">
+						<span id="submitBugText">Отправить отчёт</span>
+							<span id="submitBugLoading" class="twt-hidden">Отправка...</span>
+						</button>
+					</div>
+				</form>
+
+				<!-- Success Message -->
+				<div id="bugReportSuccess" class="twt-hidden twt-text-center twt-py-8">
+					<div class="twt-mx-auto twt-flex twt-items-center twt-justify-center twt-h-12 twt-w-12 twt-rounded-full twt-bg-green-100 twt-mb-4">
+						<svg class="twt-h-6 twt-w-6 twt-text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+						</svg>
+					</div>
+					<h3 class="twt-text-lg twt-font-medium twt-text-gray-900 twt-mb-2">
+						Отчёт отправлен!
+					</h3>
+					<p class="twt-text-gray-600 twt-mb-4">
+						Спасибо за помощь в улучшении платформы. Мы рассмотрим ваш отчёт в ближайшее время.
+					</p>
+					<button id="closeBugReportSuccess" class="twt-px-4 twt-py-2 twt-text-sm twt-font-medium twt-text-white twt-bg-green-600 twt-rounded-md hover:twt-bg-green-700">
+						Закрыть
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	#bugReportModalContent button {
+		padding: 0.5rem 1rem;
+		font-size: 0.875rem;
+		font-weight: 500;
+		border-radius: 0.375rem;
+		transition: background-color 0.2s;
+	}
+
+	#bugReportModalContent h3 {
+		font-size: 1.25rem;
+		font-weight: 600;
+		color: #111827;
+		margin-bottom: 0.5rem;
+	}
+	
+	#bugReportModalContent label {
+		display: block;
+		font-size: 0.875rem;
+		font-weight: 500;
+		color: #374151;
+		margin-bottom: 0.3rem;
+	}
+
+	.twt-text-gray-600 {
+    	font-size: 14px;
+	}
+
+	.twt-text-red-500{
+		color: #ef4444;
+		font-weight: bold;
+	}
+	#bugReportModalContent #cancelBugReport {
+		color: #374151;
+		background-color: #ffffff;
+		border: 1px solid #d1d5db;
+	}
+	#bugReportModalContent #cancelBugReport:hover {
+		background-color: #f9fafb;
+	}
+	#bugReportModalContent #submitBugReport {
+		color: #ffffff;
+		background-color: #D62E1F;
+	}
+	#bugReportModalContent #submitBugReport:hover {
+		background-color: #dc2626;
+	}
+	#bugReportModalContent #closeBugReportSuccess {
+		color: #ffffff;
+		background-color: #16a34a;
+	}
+	#bugReportModalContent #closeBugReportSuccess:hover {
+		background-color: #15803d;
+	}
+
+	#bugReportModalContent #bugReportSuccess h3 {
+		font-size: 1.125rem;
+		font-weight: 500;
+		color: #111827;
+		margin-bottom: 0.5rem;
+	}
+	#bugReportModalContent #bugReportSuccess p {
+		color: #4b5563;
+		font-size: 0.875rem;
+		margin-bottom: 1rem;
+	}
+
+	#bugReportModalContent {
+		padding: 1.5rem;
+		max-width: 28rem; 
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.twt-bg-white {
+		--tw-bg-opacity: 1;
+		background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+	}
+
+	@media (min-width: 640px) {
+		#bugReportModalContent {
+			max-width: 90%;
+		}
+	}
+</style>
 
 <script>
 	document.addEventListener("DOMContentLoaded", function() {
@@ -189,7 +395,154 @@
 	});
 </script>
 
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		// Bug Report Modal Elements
+		const reportBugBtn = document.getElementById('reportBugBtn');
+		const bugReportModal = document.getElementById('bugReportModal');
+		const bugReportModalContent = document.getElementById('bugReportModalContent');
+		const closeBugModalIcon = document.getElementById('closeBugModalIcon');
+		const cancelBugReport = document.getElementById('cancelBugReport');
+		const bugReportForm = document.getElementById('bugReportForm');
+		const bugReportSuccess = document.getElementById('bugReportSuccess');
+		const closeBugReportSuccess = document.getElementById('closeBugReportSuccess');
+
+		// Open Bug Report Modal
+		if (reportBugBtn && bugReportModal) {
+			reportBugBtn.addEventListener('click', function() {
+				bugReportModal.classList.remove('twt-opacity-0', 'twt-pointer-events-none');
+				bugReportModal.classList.add('twt-opacity-100');
+				document.body.classList.add('twt-overflow-hidden');
+			});
+		}
+
+		// Close Bug Report Modal
+		function closeBugModal() {
+			if (bugReportModal) {
+				bugReportModal.classList.add('twt-opacity-0', 'twt-pointer-events-none');
+				bugReportModal.classList.remove('twt-opacity-100');
+				document.body.classList.remove('twt-overflow-hidden');
+				
+				// Reset form and show form again
+				if (bugReportForm) {
+					bugReportForm.reset();
+					bugReportForm.classList.remove('twt-hidden');
+				}
+				if (bugReportSuccess) {
+					bugReportSuccess.classList.add('twt-hidden');
+				}
+			}
+		}
+
+		if (closeBugModalIcon) {
+			closeBugModalIcon.addEventListener('click', closeBugModal);
+		}
+		if (cancelBugReport) {
+			cancelBugReport.addEventListener('click', closeBugModal);
+		}
+		if (closeBugReportSuccess) {
+			closeBugReportSuccess.addEventListener('click', closeBugModal);
+		}
+
+		// Close on outside click
+		if (bugReportModal && bugReportModalContent) {
+			bugReportModal.addEventListener('click', function(event) {
+				if (!bugReportModalContent.contains(event.target)) {
+					closeBugModal();
+				}
+			});
+		}
+
+		// Handle form submission
+		if (bugReportForm) {
+			bugReportForm.addEventListener('submit', function(e) {
+				e.preventDefault();
+				
+				const submitBtn = document.getElementById('submitBugReport');
+				const submitText = document.getElementById('submitBugText');
+				const submitLoading = document.getElementById('submitBugLoading');
+				
+				// Show loading state
+				if (submitText && submitLoading) {
+					submitText.classList.add('twt-hidden');
+					submitLoading.classList.remove('twt-hidden');
+				}
+				if (submitBtn) {
+					submitBtn.disabled = true;
+				}
+
+				// Collect form data
+				const formData = new FormData(bugReportForm);
+				
+				// Prepare data for AJAX
+				const ajaxData = new FormData();
+				ajaxData.append('action', 'submit_bug_report');
+				ajaxData.append('nonce', bug_report_ajax.nonce);
+				ajaxData.append('category', formData.get('bug_category'));
+				ajaxData.append('priority', formData.get('bug_priority'));
+				ajaxData.append('description', formData.get('bug_description'));
+				ajaxData.append('steps', formData.get('bug_steps') || '');
+				ajaxData.append('email', formData.get('bug_email') || '');
+				ajaxData.append('url', window.location.href);
+				ajaxData.append('user_agent', navigator.userAgent);
+				ajaxData.append('screen_resolution', `${screen.width}x${screen.height}`);
+				ajaxData.append('viewport_size', `${window.innerWidth}x${window.innerHeight}`);
+				ajaxData.append('timestamp', new Date().toISOString());
+
+				// Send AJAX request
+				fetch(bug_report_ajax.ajax_url, {
+					method: 'POST',
+					body: ajaxData
+				})
+				.then(response => response.json())
+				.then(data => {
+					if (data.success) {
+						// Hide form and show success message
+						bugReportForm.classList.add('twt-hidden');
+						bugReportSuccess.classList.remove('twt-hidden');
+					} else {
+						// Show error message
+						alert('Ошибка: ' + (data.data || 'Неизвестная ошибка'));
+						
+						// Reset button state
+						if (submitText && submitLoading) {
+							submitText.classList.remove('twt-hidden');
+							submitLoading.classList.add('twt-hidden');
+						}
+						if (submitBtn) {
+							submitBtn.disabled = false;
+						}
+					}
+				})
+				.catch(error => {
+					console.error('Error:', error);
+					alert('Ошибка отправки. Попробуйте позже.');
+					
+					// Reset button state
+					if (submitText && submitLoading) {
+						submitText.classList.remove('twt-hidden');
+						submitLoading.classList.add('twt-hidden');
+					}
+					if (submitBtn) {
+						submitBtn.disabled = false;
+					}
+				});
+			});
+		}
+	});
+</script>
+
 <?php wp_footer(); ?>
+
+<!-- Bug Report AJAX Localization -->
+<script>
+	// WordPress AJAX localization for bug reports
+	window.bug_report_ajax = {
+		ajax_url: '<?php echo admin_url('admin-ajax.php'); ?>',
+		nonce: '<?php echo wp_create_nonce('bug_report_nonce'); ?>'
+	};
+</script>
+
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 	(function(m, e, t, r, i, k, a) {

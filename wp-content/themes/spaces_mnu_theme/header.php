@@ -47,10 +47,13 @@
 		right: -100%;
 		width: 280px;
 		height: 100vh;
-		background: #1a1a1a;
+		background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+		box-shadow: -4px 0 12px rgba(0, 0, 0, 0.4);
 		z-index: 1000;
 		transition: right 0.3s ease-in-out;
 		overflow-y: auto;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
 	}
 	
 	#mobile-menu.show {
@@ -75,13 +78,44 @@
 		opacity: 1;
 		visibility: visible;
 	}
+
+	#mobile-menu .twt-p-6 {
+		padding: 40px 20px;
+	}
+
+	#mobile-menu .menu-item {
+		display: flex;
+		align-items: center;
+		padding: 15px 20px;
+		margin-bottom: 20px;
+		background: rgba(255, 255, 255, 0.05);
+		border-radius: 12px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		text-decoration: none;
+		transition: all 0.3s ease;
+		box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	}
+
+	#mobile-menu .menu-item:hover {
+		background: rgba(255, 255, 255, 0.15);
+		transform: translateX(5px);
+	}
+
+	#mobile-menu .menu-item svg {
+		width: 28px;
+		height: 28px;
+		margin-right: 16px;
+		stroke-width: 2.2;
+	}
 	</style>
 </head>
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
-		<nav class="twt-w-full twt-bg-[#0F0F0F] twt-py-4">
+		<nav class="twt-w-full twt-bg-[#0F0F0F] twt-py-4 twt-fixed twt-top-0 twt-left-0 twt-z-50">
 			<div class="twt-mx-auto twt-max-w-7xl twt-px-2 sm:twt-px-6 lg:twt-px-8">
 				<div class="twt-relative twt-grid twt-grid-cols-3 md:twt-grid-cols-3 twt-h-16 twt-items-center twt-justify-start">
 					
@@ -160,17 +194,17 @@
 
 						<!-- Пункты меню -->
 						<div class="twt-space-y-3">
-							<a href="<?php echo esc_url(home_url('/profile-' . pll_current_language())); ?>" class="twt-flex twt-items-center twt-gap-4 twt-px-4 twt-py-4 twt-text-white twt-rounded-lg hover:twt-bg-[#333] twt-transition-colors">
-								<svg class="twt-h-6 twt-w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<a href="<?php echo esc_url(home_url('/profile-' . pll_current_language())); ?>" class="menu-item">
+								<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
 								</svg>
-								<span class="twt-text-lg"><?= __('Profile', 'spaces_mnu_theme'); ?></span>
+								<span><?= __('Profile', 'spaces_mnu_theme'); ?></span>
 							</a>
-							<a href="<?php echo esc_url(wp_logout_url(home_url())); ?>" class="twt-flex twt-items-center twt-gap-4 twt-px-4 twt-py-4 twt-text-white twt-rounded-lg hover:twt-bg-[#333] twt-transition-colors">
-								<svg class="twt-h-6 twt-w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<a href="<?php echo esc_url(wp_logout_url(home_url())); ?>" class="menu-item">
+								<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
 								</svg>
-								<span class="twt-text-lg"><?= __('Sign Out', 'spaces_mnu_theme'); ?></span>
+								<span><?= __('Sign Out', 'spaces_mnu_theme'); ?></span>
 							</a>
 						</div>
 					</div>
@@ -178,4 +212,4 @@
 				<?php endif; ?>
 			</div>
 		</nav>
-		<div class="site-content">
+		<div class="site-content" style="padding-top: 80px;">

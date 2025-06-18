@@ -87,6 +87,12 @@ define('WP_DEBUG_DISPLAY', false);
 
 define('AUTOMATIC_UPDATER_DISABLED', true);
 
+define( 'COOKIEPATH', '/spaces/' );
+define( 'SITECOOKIEPATH', '/spaces/' );
+
+define('WP_HOME', 'http://localhost:8888/spaces');
+define('WP_SITEURL', 'http://localhost:8888/spaces');
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
